@@ -1,0 +1,521 @@
+household_id,district,mother_age,mother_education,num_children,distance_km,household_income,birth_place,outreach_visits,fully_immunised
+H001,North,21,Primary,3,3.2,65.0,Facility,1,0
+H002,South,22,Secondary,2,12.1,180.0,Facility,2,1
+H003,North,26,Secondary,5,2.9,165.0,Facility,3,1
+H004,South,30,Secondary,1,5.5,250.0,Facility,2,1
+H005,North,22,Secondary,4,12.3,355.0,Facility,2,1
+H006,South,23,Primary,3,3.4,280.0,Facility,2,1
+H007,East,23,Secondary,6,24.2,230.0,Facility,1,0
+H008,West,30,Secondary,2,,,Facility,3,1
+H009,North,24,Tertiary,5,7.4,285.0,Home,2,0
+H010,South,26,Primary,3,20.2,170.0,Facility,0,0
+H011,West,34,Tertiary,3,7.4,320.0,Facility,2,1
+H012,North,21,Secondary,5,18.2,70.0,Home,3,0
+H013,West,21,Secondary,3,9.0,315.0,Facility,2,1
+H014,North,32,Primary,4,4.1,80.0,Facility,1,0
+H015,North,16,Secondary,3,7.7,,Facility,0,0
+H016,East,26,No schooling,3,40.0,80.0,Facility,3,0
+H017,North,24,Secondary,6,11.1,135.0,Home,2,1
+H018,West,16,Primary,3,8.2,175.0,Home,2,0
+H019,South,26,Secondary,2,7.6,245.0,Home,1,0
+H020,South,24,Secondary,5,8.4,85.0,Facility,2,1
+H021,West,22,Primary,6,1.0,70.0,Facility,1,1
+H022,North,41,Primary,4,6.2,620.0,Facility,2,0
+H023,West,31,Primary,3,8.6,45.0,Home,1,1
+H024,West,29,Secondary,4,15.1,340.0,Facility,1,0
+H025,West,28,Secondary,6,11.7,90.0,Home,3,1
+H026,North,22,No schooling,1,10.5,100.0,Home,2,0
+H027,West,31,No schooling,4,2.2,195.0,Home,3,1
+H028,East,20,Tertiary,1,8.4,150.0,Home,1,1
+H029,South,29,,3,7.1,170.0,Facility,2,0
+H030,South,31,Primary,3,,230.0,Home,0,0
+H031,East,29,No schooling,4,19.4,80.0,Home,5,0
+H032,North,25,Primary,2,16.4,265.0,Facility,3,0
+H033,East,22,Secondary,2,,170.0,Facility,3,0
+H034,West,30,Secondary,5,8.6,155.0,Home,5,1
+H035,South,26,Secondary,2,12.2,60.0,Facility,2,1
+H036,South,35,No schooling,6,6.0,230.0,Facility,1,1
+H037,North,28,Primary,4,2.5,,Home,2,1
+H038,South,23,Primary,3,,105.0,Facility,6,0
+H039,West,22,Primary,3,2.7,140.0,Facility,3,0
+H040,West,26,Tertiary,5,9.2,100.0,Home,1,0
+H041,South,23,Tertiary,1,8.7,255.0,Facility,0,1
+H042,North,28,No schooling,4,7.0,130.0,Home,2,0
+H043,South,17,Tertiary,3,12.1,165.0,Facility,4,1
+H044,North,25,Secondary,3,8.2,220.0,Home,2,0
+H045,East,30,Secondary,3,14.9,45.0,Facility,1,0
+H046,West,34,Tertiary,4,3.6,350.0,Facility,3,1
+H047,North,26,Primary,6,1.4,125.0,Facility,2,1
+H048,North,34,,6,12.4,55.0,Facility,3,0
+H049,North,31,,4,19.5,105.0,Facility,3,1
+H050,South,29,Secondary,7,14.6,505.0,Facility,3,1
+H051,North,26,Secondary,4,19.1,145.0,Facility,1,0
+H052,North,25,Secondary,5,10.3,560.0,Facility,2,1
+H053,South,21,Tertiary,2,4.3,145.0,Home,2,1
+H054,South,25,Tertiary,4,9.0,395.0,Facility,1,0
+H055,East,24,Primary,4,12.2,,Facility,1,0
+H056,North,25,Primary,4,8.3,115.0,Home,2,0
+H057,East,17,Secondary,1,37.4,285.0,Facility,4,1
+H058,North,16,Secondary,5,9.9,110.0,Home,1,0
+H059,South,26,Primary,1,10.0,95.0,Facility,0,0
+H060,South,36,No schooling,4,16.4,65.0,Home,2,0
+H061,West,25,Secondary,4,2.9,155.0,Facility,4,1
+H062,South,29,Secondary,7,14.9,220.0,Facility,2,1
+H063,West,30,Secondary,1,,155.0,Home,2,0
+H064,East,22,No schooling,5,2.5,,Facility,2,0
+H065,North,28,Secondary,6,9.8,160.0,Home,2,1
+H066,West,16,Secondary,5,11.2,130.0,Home,4,1
+H067,South,30,Secondary,5,7.9,150.0,Facility,2,1
+H068,West,31,Primary,4,,110.0,Home,1,0
+H069,North,26,Primary,3,5.8,175.0,Facility,4,1
+H070,South,17,Primary,1,5.8,185.0,Facility,1,1
+H071,West,26,No schooling,2,5.4,45.0,Home,1,0
+H072,South,16,Secondary,2,5.5,45.0,Facility,2,1
+H073,North,16,Tertiary,4,3.0,320.0,Facility,5,1
+H074,South,33,Tertiary,4,16.7,285.0,Facility,1,1
+H075,West,23,Secondary,4,5.6,255.0,Home,2,1
+H076,East,21,Secondary,3,12.8,265.0,Home,2,1
+H077,South,20,Primary,6,18.1,70.0,Home,3,0
+H078,West,30,,2,10.9,50.0,Facility,0,0
+H079,North,34,Secondary,4,10.6,195.0,Home,1,0
+H080,South,16,No schooling,2,7.5,60.0,Home,1,0
+H081,South,27,Primary,4,8.4,165.0,Facility,0,0
+H082,North,31,No schooling,3,2.4,200.0,Home,0,1
+H083,North,37,Primary,1,7.9,60.0,Facility,3,1
+H084,South,20,Secondary,6,1.2,375.0,Home,0,0
+H085,West,34,Secondary,4,6.6,270.0,Facility,1,1
+H086,South,29,Primary,3,10.8,105.0,Home,2,0
+H087,South,17,Secondary,3,3.0,,Facility,3,1
+H088,West,22,No schooling,4,21.0,160.0,Facility,3,0
+H089,North,32,Secondary,4,12.0,155.0,Facility,2,1
+H090,South,23,Primary,2,12.4,150.0,Facility,2,1
+H091,North,27,No schooling,4,15.0,70.0,Facility,2,0
+H092,West,32,Tertiary,2,,130.0,Facility,1,0
+H093,North,25,Secondary,2,13.9,,Facility,4,1
+H094,South,26,Secondary,3,9.4,195.0,Home,3,1
+H095,South,29,Primary,5,20.0,270.0,Facility,2,0
+H096,West,28,Primary,4,5.6,145.0,Home,3,1
+H097,West,27,Secondary,4,3.2,100.0,Facility,4,1
+H098,West,26,Secondary,2,9.5,140.0,Home,1,0
+H099,West,23,Tertiary,2,6.8,245.0,Home,3,0
+H100,North,28,Primary,2,,,Facility,6,1
+H101,East,23,Secondary,3,14.4,165.0,Facility,2,0
+H102,East,23,Primary,1,27.3,100.0,Home,0,0
+H103,West,28,Secondary,1,,235.0,Facility,2,1
+H104,East,16,Secondary,2,8.5,155.0,Facility,0,1
+H105,West,21,No schooling,1,5.6,55.0,Home,0,0
+H106,South,23,Secondary,2,2.7,75.0,Facility,5,1
+H107,North,30,Secondary,2,5.3,210.0,Facility,3,1
+H108,North,20,Primary,8,3.2,270.0,Facility,6,1
+H109,South,30,,5,,300.0,Facility,2,0
+H110,East,16,Primary,9,15.2,,Facility,4,0
+H111,South,28,No schooling,4,8.8,265.0,Home,2,1
+H112,South,33,Primary,3,11.6,90.0,Facility,3,0
+H113,North,28,No schooling,5,6.8,125.0,Facility,1,1
+H114,East,30,Secondary,3,11.2,60.0,Facility,3,1
+H115,North,16,Secondary,3,9.7,240.0,Facility,3,1
+H116,South,32,Primary,4,2.6,165.0,Facility,2,1
+H117,North,27,Primary,4,6.7,75.0,Facility,3,0
+H118,East,26,No schooling,6,2.4,75.0,Home,3,0
+H119,West,24,Primary,4,7.4,90.0,Home,2,0
+H120,South,22,Primary,5,9.4,300.0,Home,3,0
+H121,South,27,Tertiary,4,2.8,,Facility,2,1
+H122,West,29,Primary,2,12.7,65.0,Facility,3,0
+H123,South,33,Primary,4,,130.0,Facility,1,1
+H124,North,26,Secondary,3,13.2,820.0,Facility,2,1
+H125,South,19,No schooling,4,4.1,70.0,Home,1,0
+H126,East,27,Secondary,3,12.2,240.0,Facility,0,0
+H127,North,22,Primary,4,24.6,,Facility,1,0
+H128,East,32,Secondary,7,15.9,70.0,Home,1,1
+H129,West,27,No schooling,4,15.2,65.0,Facility,4,1
+H130,East,22,Secondary,2,18.7,570.0,Home,1,0
+H131,East,34,Secondary,3,3.6,300.0,Home,2,1
+H132,West,27,Primary,5,12.5,80.0,Facility,2,1
+H133,North,22,Secondary,1,4.9,,Facility,6,1
+H134,West,35,No schooling,4,7.6,240.0,Facility,1,0
+H135,South,22,Secondary,2,18.3,145.0,Facility,2,1
+H136,East,25,Primary,7,21.2,,Facility,1,0
+H137,North,26,,4,,20.0,Facility,1,0
+H138,East,36,Primary,3,10.6,230.0,Facility,4,1
+H139,North,26,Primary,3,6.2,155.0,Facility,1,1
+H140,West,17,No schooling,2,4.6,145.0,Facility,3,1
+H141,North,24,Secondary,4,23.4,335.0,Facility,0,0
+H142,South,33,No schooling,4,9.8,60.0,Facility,3,0
+H143,East,31,Primary,2,17.2,95.0,Facility,2,1
+H144,North,17,Secondary,4,12.4,155.0,Facility,4,1
+H145,South,18,No schooling,1,5.4,100.0,Facility,1,1
+H146,West,29,No schooling,5,2.9,315.0,Facility,2,1
+H147,East,23,Primary,3,18.7,85.0,Facility,0,1
+H148,North,25,Primary,7,9.0,110.0,Facility,1,0
+H149,West,25,Secondary,3,20.5,125.0,Facility,4,0
+H150,North,24,Primary,5,9.0,235.0,Home,3,0
+H151,East,26,Primary,2,13.1,40.0,Home,3,1
+H152,West,17,No schooling,6,8.0,165.0,Home,2,0
+H153,West,30,Secondary,2,9.0,230.0,Facility,0,1
+H154,South,29,Secondary,4,8.1,425.0,Facility,0,0
+H155,South,25,Primary,2,8.2,110.0,Home,2,0
+H156,East,31,,2,3.6,145.0,Facility,0,1
+H157,West,31,Primary,6,7.6,260.0,Facility,2,0
+H158,West,35,No schooling,4,8.8,70.0,Facility,0,0
+H159,West,25,Primary,2,6.7,395.0,Facility,1,1
+H160,West,36,Tertiary,6,13.1,165.0,Facility,2,1
+H161,North,24,Primary,5,4.1,95.0,Home,4,1
+H162,South,30,Secondary,1,4.3,70.0,Home,2,1
+H163,East,23,Tertiary,5,6.5,405.0,Home,2,0
+H164,South,33,Secondary,6,26.5,470.0,Home,2,0
+H165,North,29,No schooling,4,5.5,85.0,Home,0,0
+H166,South,41,Secondary,4,16.5,375.0,Facility,2,1
+H167,North,17,No schooling,5,,135.0,Facility,3,0
+H168,North,29,Tertiary,5,25.5,430.0,Facility,6,1
+H169,East,29,,2,,185.0,Home,2,0
+H170,South,41,Secondary,4,6.3,365.0,Facility,2,0
+H171,North,33,Secondary,4,3.1,155.0,Facility,1,1
+H172,South,29,Secondary,5,12.5,100.0,Home,1,0
+H173,North,17,Secondary,4,3.4,85.0,Facility,3,1
+H174,South,30,No schooling,1,3.1,285.0,Facility,2,0
+H175,North,22,Primary,5,7.8,175.0,Facility,0,1
+H176,North,24,Secondary,4,6.7,200.0,Home,0,0
+H177,East,27,No schooling,5,12.9,,Home,0,0
+H178,South,32,No schooling,2,,,Home,0,1
+H179,East,19,Secondary,4,12.9,160.0,Facility,0,1
+H180,East,25,No schooling,4,4.8,40.0,Home,2,0
+H181,East,22,No schooling,4,7.0,45.0,Home,1,0
+H182,East,19,No schooling,3,7.3,95.0,Facility,2,0
+H183,North,40,No schooling,3,9.0,70.0,Home,1,0
+H184,West,39,Secondary,3,8.2,135.0,Facility,4,0
+H185,North,34,No schooling,6,2.4,105.0,Home,0,0
+H186,North,31,Secondary,4,16.4,195.0,Home,2,0
+H187,East,25,Primary,4,8.1,480.0,Home,1,0
+H188,West,31,Tertiary,3,7.6,370.0,Home,3,1
+H189,South,20,Tertiary,4,8.8,695.0,Facility,3,1
+H190,West,26,Tertiary,2,9.9,,Facility,3,0
+H191,West,31,No schooling,3,7.2,70.0,Home,2,0
+H192,West,40,Primary,2,6.4,,Facility,2,1
+H193,South,20,Primary,3,4.6,95.0,Facility,1,0
+H194,South,25,Primary,4,23.4,200.0,Facility,2,0
+H195,West,27,No schooling,3,5.2,160.0,Facility,4,1
+H196,West,20,Tertiary,7,17.0,245.0,Facility,1,1
+H197,South,32,Secondary,5,16.8,250.0,Facility,1,0
+H198,East,29,No schooling,3,12.8,40.0,Facility,1,0
+H199,West,24,Tertiary,4,6.5,300.0,Home,0,0
+H200,North,29,Secondary,3,1.7,300.0,Facility,0,1
+H201,North,28,,6,13.5,595.0,Home,0,0
+H202,North,28,,4,3.4,135.0,Facility,1,1
+H203,South,23,Secondary,2,3.9,45.0,Facility,1,1
+H204,West,18,Primary,7,15.8,200.0,Facility,1,0
+H205,West,24,Tertiary,6,5.9,200.0,Facility,5,1
+H206,West,20,No schooling,4,4.8,380.0,Home,1,1
+H207,South,30,No schooling,3,8.6,80.0,Home,2,1
+H208,East,18,,2,2.6,285.0,Home,1,1
+H209,East,30,Secondary,1,25.7,155.0,Facility,3,1
+H210,South,26,Primary,3,3.1,,Home,1,0
+H211,South,34,Primary,1,2.2,,Facility,4,1
+H212,West,19,No schooling,1,,125.0,Facility,1,1
+H213,East,30,Primary,3,22.5,245.0,Home,4,0
+H214,South,31,Primary,2,11.8,130.0,Facility,3,1
+H215,West,26,Secondary,3,6.5,185.0,Facility,1,1
+H216,South,24,Primary,2,12.0,,Facility,2,0
+H217,West,22,Secondary,2,19.1,200.0,Home,0,0
+H218,South,21,Secondary,3,9.8,130.0,Facility,3,0
+H219,North,34,,2,11.8,115.0,Facility,1,0
+H220,East,21,Primary,4,9.0,115.0,Facility,0,0
+H221,West,22,Primary,4,6.0,145.0,Home,3,1
+H222,South,19,Tertiary,6,1.4,155.0,Facility,1,1
+H223,North,30,Primary,5,4.4,145.0,Home,4,1
+H224,South,18,,2,4.7,140.0,Home,4,1
+H225,North,19,Primary,3,,105.0,Facility,5,1
+H226,West,17,Secondary,2,5.3,120.0,Home,1,0
+H227,South,18,Secondary,2,6.7,,Facility,2,1
+H228,West,26,Secondary,7,5.9,370.0,Facility,1,0
+H229,South,33,No schooling,2,7.4,60.0,Home,2,0
+H230,West,22,Tertiary,6,12.0,495.0,Facility,3,1
+H231,South,24,No schooling,3,11.3,95.0,Facility,0,0
+H232,South,27,Secondary,4,4.0,110.0,Facility,2,1
+H233,South,21,Tertiary,2,1.3,225.0,Facility,0,0
+H234,East,26,Primary,4,27.7,160.0,Facility,3,0
+H235,North,33,Secondary,4,8.4,110.0,Facility,1,0
+H236,North,16,Secondary,1,4.7,240.0,Facility,3,1
+H237,East,29,Tertiary,2,8.6,150.0,Facility,3,1
+H238,South,20,Secondary,4,11.3,175.0,Facility,3,1
+H239,North,24,Tertiary,3,7.2,385.0,Facility,3,1
+H240,North,31,No schooling,6,16.4,140.0,Home,4,0
+H241,West,28,Secondary,5,18.5,155.0,Home,3,0
+H242,West,21,No schooling,4,8.2,115.0,Home,1,1
+H243,East,30,Primary,2,12.0,,Home,3,0
+H244,North,27,Secondary,4,5.9,275.0,Facility,3,1
+H245,North,42,Secondary,3,,100.0,Home,1,1
+H246,South,19,Secondary,3,17.1,555.0,Facility,0,0
+H247,West,24,Secondary,6,6.6,570.0,Home,4,1
+H248,North,26,Primary,3,8.4,130.0,Home,3,0
+H249,South,41,Secondary,4,1.1,65.0,Home,4,0
+H250,West,21,Secondary,4,14.1,80.0,Home,2,1
+H251,South,19,No schooling,3,7.6,195.0,Home,3,0
+H252,North,28,Secondary,5,8.7,175.0,Facility,2,1
+H253,West,23,Primary,7,7.9,,Home,4,0
+H254,East,25,No schooling,2,28.7,60.0,Home,3,1
+H255,East,42,Primary,3,6.2,265.0,Facility,2,1
+H256,East,27,No schooling,2,40.0,65.0,Facility,3,0
+H257,East,20,Secondary,3,23.6,315.0,Home,5,1
+H258,East,39,Primary,1,9.6,85.0,Home,1,0
+H259,South,23,Secondary,5,7.6,135.0,Home,0,1
+H260,North,24,Primary,3,8.7,240.0,Home,4,1
+H261,North,28,Primary,4,,75.0,Home,0,0
+H262,North,27,Secondary,3,4.0,505.0,Home,2,0
+H263,North,27,Primary,4,4.5,260.0,Home,2,0
+H264,North,27,Secondary,1,16.9,255.0,Facility,2,0
+H265,East,32,Secondary,5,18.6,200.0,Facility,1,0
+H266,West,36,No schooling,3,9.5,,Facility,1,0
+H267,East,27,Secondary,5,8.7,,Facility,0,1
+H268,East,21,No schooling,2,3.4,,Home,3,1
+H269,North,28,Primary,6,10.6,570.0,Facility,0,1
+H270,North,27,Primary,4,7.8,40.0,Home,3,1
+H271,North,37,No schooling,3,18.2,200.0,Facility,5,1
+H272,North,39,,6,,110.0,Home,2,0
+H273,North,34,Primary,3,5.5,155.0,Home,1,0
+H274,North,17,Secondary,4,21.7,335.0,Facility,3,0
+H275,West,31,Primary,1,9.1,95.0,Facility,5,1
+H276,South,20,Primary,1,10.9,90.0,Facility,3,0
+H277,South,24,Secondary,3,,,Facility,2,0
+H278,North,39,Secondary,3,12.7,155.0,Facility,2,1
+H279,West,16,Secondary,4,,360.0,Facility,3,1
+H280,West,32,Primary,4,14.1,50.0,Home,1,0
+H281,West,35,Secondary,3,6.9,155.0,Facility,1,1
+H282,South,34,Secondary,2,40.0,,Facility,0,0
+H283,West,17,Secondary,1,,210.0,Facility,4,1
+H284,South,22,Primary,4,13.2,165.0,Home,2,0
+H285,South,19,Primary,7,4.0,205.0,Facility,0,0
+H286,North,24,Secondary,5,8.0,145.0,Home,1,0
+H287,North,27,Primary,4,,,Facility,3,0
+H288,North,33,Secondary,4,,185.0,Home,0,0
+H289,West,33,Primary,5,10.3,135.0,Home,2,0
+H290,West,27,Secondary,3,11.1,130.0,Facility,4,0
+H291,South,33,Secondary,4,15.1,290.0,Home,4,1
+H292,West,26,No schooling,2,,,Facility,2,0
+H293,North,28,Primary,1,3.9,80.0,Home,4,1
+H294,West,26,No schooling,4,4.5,70.0,Home,2,0
+H295,South,29,Secondary,4,0.4,,Home,5,1
+H296,South,33,No schooling,5,7.0,95.0,Home,3,0
+H297,North,20,Secondary,4,12.2,295.0,Home,1,1
+H298,North,21,Secondary,3,3.4,145.0,Facility,3,1
+H299,West,22,Primary,1,8.3,,Home,3,0
+H300,North,40,Primary,3,2.4,125.0,Facility,3,1
+H301,West,32,Secondary,7,12.4,255.0,Home,0,0
+H302,West,22,Secondary,2,8.9,80.0,Home,1,0
+H303,West,29,Tertiary,6,7.6,330.0,Home,2,0
+H304,West,20,Secondary,4,5.0,120.0,Facility,2,0
+H305,East,30,No schooling,3,15.1,55.0,Home,2,0
+H306,South,26,Primary,3,,60.0,Facility,0,1
+H307,West,21,Secondary,2,12.3,65.0,Facility,2,1
+H308,North,16,,3,2.7,65.0,Home,2,0
+H309,West,18,Secondary,1,14.7,260.0,Facility,2,1
+H310,East,21,Secondary,3,,270.0,Home,4,1
+H311,South,28,Tertiary,1,4.7,,Home,1,0
+H312,East,27,No schooling,6,15.5,105.0,Home,1,0
+H313,East,20,Secondary,5,5.9,625.0,Home,2,0
+H314,East,27,Secondary,4,17.1,145.0,Facility,1,0
+H315,West,28,Primary,5,,,Facility,2,0
+H316,North,16,No schooling,1,2.6,80.0,Home,2,0
+H317,West,24,Tertiary,1,11.1,220.0,Facility,0,1
+H318,North,32,Secondary,1,14.9,190.0,Facility,2,0
+H319,West,30,Secondary,1,3.8,115.0,Facility,2,1
+H320,East,36,No schooling,5,11.7,95.0,Home,5,0
+H321,East,24,No schooling,6,25.9,85.0,Facility,3,1
+H322,North,21,No schooling,4,8.1,195.0,Home,2,0
+H323,South,28,Secondary,8,28.6,195.0,Home,1,0
+H324,East,21,No schooling,3,6.0,120.0,Home,3,0
+H325,South,29,No schooling,4,4.2,110.0,Facility,1,0
+H326,West,28,No schooling,4,7.3,35.0,Home,1,0
+H327,North,16,Secondary,5,9.6,130.0,Facility,1,0
+H328,South,29,Tertiary,4,4.4,140.0,Home,0,1
+H329,West,24,Primary,2,3.2,260.0,Facility,1,0
+H330,North,22,Primary,2,11.5,125.0,Facility,4,1
+H331,North,27,Secondary,5,17.6,90.0,Facility,1,1
+H332,North,21,Primary,2,6.9,,Home,2,0
+H333,West,39,Tertiary,3,3.9,115.0,Facility,2,1
+H334,South,33,No schooling,4,7.4,50.0,Home,2,1
+H335,South,18,No schooling,2,27.9,105.0,Facility,0,0
+H336,North,24,Primary,2,10.8,180.0,Facility,2,0
+H337,West,37,Secondary,2,12.6,275.0,Home,0,0
+H338,South,23,Tertiary,4,7.0,410.0,Facility,1,1
+H339,West,30,Secondary,5,11.5,245.0,Facility,0,1
+H340,East,24,Secondary,4,12.3,100.0,Home,1,0
+H341,West,39,No schooling,5,10.4,90.0,Home,1,0
+H342,North,26,Secondary,5,,95.0,Home,3,1
+H343,East,35,Primary,4,3.7,85.0,Home,3,0
+H344,South,21,Secondary,4,12.9,360.0,Facility,2,1
+H345,East,27,Primary,1,25.3,35.0,Home,2,0
+H346,East,35,Secondary,2,15.1,,Facility,2,1
+H347,North,27,Secondary,7,,355.0,Home,3,0
+H348,South,25,Primary,5,22.6,170.0,Facility,1,0
+H349,West,36,Primary,2,5.5,380.0,Facility,1,1
+H350,North,22,Primary,4,12.0,125.0,Home,1,1
+H351,North,17,Primary,4,6.0,95.0,Facility,2,0
+H352,West,31,No schooling,2,7.0,40.0,Home,1,1
+H353,South,22,Tertiary,1,13.7,250.0,Facility,3,1
+H354,East,28,Primary,5,29.5,110.0,Home,2,0
+H355,West,27,Primary,5,3.0,210.0,Facility,2,0
+H356,East,27,,2,,350.0,Facility,0,1
+H357,North,37,Secondary,4,11.9,480.0,Facility,3,0
+H358,South,20,Tertiary,6,,140.0,Facility,3,1
+H359,East,25,Secondary,2,25.9,115.0,Facility,3,0
+H360,North,27,,1,6.1,165.0,Home,1,1
+H361,West,34,Primary,3,12.5,60.0,Home,0,0
+H362,East,28,Secondary,6,15.8,175.0,Home,1,0
+H363,South,30,Secondary,4,6.0,245.0,Facility,1,1
+H364,North,30,Primary,5,8.0,215.0,Facility,3,1
+H365,West,33,Secondary,3,12.0,,Facility,1,0
+H366,South,28,Secondary,2,8.8,205.0,Facility,0,1
+H367,East,22,Tertiary,3,12.8,,Facility,6,1
+H368,West,30,Tertiary,4,20.4,480.0,Home,4,0
+H369,West,27,Primary,6,27.4,65.0,Facility,3,1
+H370,North,30,Secondary,4,3.0,80.0,Facility,2,1
+H371,South,33,Secondary,5,3.6,210.0,Facility,1,0
+H372,West,31,Secondary,6,27.3,125.0,Home,5,0
+H373,North,31,Primary,3,0.6,200.0,Home,3,1
+H374,North,27,Secondary,5,7.8,215.0,Facility,1,0
+H375,South,27,Secondary,2,,85.0,Facility,1,0
+H376,South,24,No schooling,4,26.9,105.0,Facility,2,0
+H377,West,34,Primary,5,,360.0,Facility,5,1
+H378,North,30,Tertiary,3,,240.0,Facility,2,1
+H379,West,32,No schooling,3,11.4,85.0,Facility,1,0
+H380,South,23,Primary,4,2.9,70.0,Facility,3,1
+H381,West,29,Secondary,4,4.2,255.0,Facility,4,1
+H382,West,27,Primary,3,8.7,90.0,Facility,5,1
+H383,South,19,Secondary,3,4.1,425.0,Facility,1,0
+H384,West,25,Secondary,2,1.6,115.0,Facility,0,1
+H385,South,23,,7,19.1,345.0,Home,0,0
+H386,West,28,Secondary,2,5.0,285.0,Home,1,0
+H387,South,29,,4,20.7,90.0,Home,3,0
+H388,North,26,Tertiary,6,1.8,95.0,Facility,3,1
+H389,South,22,Primary,1,17.7,190.0,Facility,0,0
+H390,West,29,Tertiary,5,,535.0,Facility,2,1
+H391,North,33,Primary,6,7.9,80.0,Facility,1,1
+H392,West,27,Primary,5,0.8,,Home,3,1
+H393,South,16,No schooling,1,3.0,35.0,Facility,3,1
+H394,North,28,No schooling,1,5.0,25.0,Facility,1,0
+H395,South,16,Primary,4,2.6,85.0,Facility,4,1
+H396,West,16,Secondary,3,12.9,215.0,Facility,4,0
+H397,South,17,Secondary,6,4.1,155.0,Facility,2,0
+H398,South,32,Primary,2,12.3,,Home,6,1
+H399,East,25,Primary,4,23.6,245.0,Facility,3,1
+H400,East,25,No schooling,5,36.9,470.0,Home,1,0
+H401,West,24,Secondary,2,11.3,365.0,Home,0,1
+H402,North,22,Tertiary,2,18.8,410.0,Facility,0,0
+H403,West,31,No schooling,4,3.5,135.0,Home,4,1
+H404,South,25,Primary,5,15.6,270.0,Home,2,0
+H405,North,34,No schooling,6,7.9,85.0,Facility,1,1
+H406,West,26,Primary,7,3.1,130.0,Home,5,0
+H407,North,27,Primary,3,6.4,140.0,Home,0,0
+H408,North,22,Secondary,4,36.2,480.0,Facility,3,0
+H409,North,27,Secondary,5,7.0,135.0,Facility,2,1
+H410,West,34,,2,13.0,85.0,Home,3,0
+H411,East,42,Primary,4,18.8,110.0,Facility,2,1
+H412,North,25,Secondary,3,11.3,255.0,Facility,3,1
+H413,North,34,,5,9.6,30.0,Home,4,0
+H414,North,24,Tertiary,3,24.9,160.0,Facility,0,0
+H415,North,25,,4,3.3,125.0,Facility,4,1
+H416,East,26,,5,15.9,585.0,Home,1,1
+H417,West,22,Primary,6,4.5,210.0,Facility,4,1
+H418,West,25,Primary,4,7.4,375.0,Home,2,0
+H419,East,28,No schooling,5,12.6,35.0,Facility,3,0
+H420,East,29,Primary,2,15.7,,Facility,2,0
+H421,West,28,Primary,4,7.0,110.0,Facility,1,1
+H422,East,32,Tertiary,5,11.8,,Home,1,1
+H423,East,32,No schooling,2,,,Home,2,0
+H424,North,32,Primary,4,4.4,225.0,Home,4,1
+H425,East,28,Primary,5,31.0,55.0,Facility,1,0
+H426,West,16,No schooling,5,3.0,105.0,Home,1,0
+H427,South,29,Secondary,5,3.5,245.0,Facility,1,1
+H428,South,28,Primary,3,6.0,120.0,Facility,3,1
+H429,West,24,Primary,3,3.0,,Home,4,1
+H430,North,39,Secondary,2,8.5,,Facility,1,0
+H431,South,23,Secondary,5,0.9,100.0,Facility,5,1
+H432,South,21,Primary,5,6.2,135.0,Home,3,1
+H433,North,28,Primary,4,8.7,120.0,Facility,1,0
+H434,South,34,Tertiary,3,14.9,,Facility,1,1
+H435,East,16,Secondary,7,9.9,160.0,Facility,3,1
+H436,West,37,Secondary,7,26.4,110.0,Home,0,0
+H437,East,36,Primary,3,3.8,150.0,Facility,0,1
+H438,North,32,Primary,1,2.5,330.0,Home,1,0
+H439,North,29,Tertiary,2,4.2,250.0,Facility,2,0
+H440,East,31,Tertiary,7,4.1,190.0,Home,6,1
+H441,South,20,No schooling,2,5.5,95.0,Facility,1,1
+H442,North,16,Secondary,3,5.4,125.0,Facility,3,1
+H443,South,22,Primary,3,,420.0,Home,2,0
+H444,North,31,Secondary,4,,,Facility,1,1
+H445,North,20,Secondary,3,21.7,,Facility,3,0
+H446,West,17,Secondary,2,2.9,385.0,Facility,2,0
+H447,West,18,No schooling,4,4.5,30.0,Facility,2,0
+H448,West,31,No schooling,3,12.2,,Facility,1,0
+H449,South,22,Secondary,3,4.5,145.0,Facility,1,1
+H450,North,27,Primary,3,,,Home,2,1
+H451,West,33,Secondary,4,3.8,275.0,Facility,1,1
+H452,South,35,Primary,4,5.5,80.0,Home,2,1
+H453,West,26,Secondary,3,19.5,150.0,Facility,2,1
+H454,South,25,Primary,4,,,Facility,3,0
+H455,North,16,No schooling,4,6.7,60.0,Facility,2,0
+H456,West,24,Secondary,2,18.5,60.0,Facility,0,0
+H457,South,33,No schooling,3,,150.0,Home,1,0
+H458,North,24,Primary,4,7.8,165.0,Home,2,0
+H459,South,22,Tertiary,3,5.4,370.0,Facility,4,1
+H460,North,25,Primary,4,5.5,140.0,Facility,4,1
+H461,North,29,Secondary,4,6.4,110.0,Facility,3,1
+H462,East,27,Secondary,4,27.5,125.0,Facility,0,1
+H463,South,29,Secondary,3,1.0,,Facility,3,1
+H464,North,32,Primary,3,6.1,,Home,2,0
+H465,South,19,Secondary,1,0.9,200.0,Home,3,0
+H466,South,28,Tertiary,5,5.0,,Facility,1,1
+H467,South,21,Secondary,3,3.9,370.0,Facility,1,1
+H468,South,25,Primary,3,,,Home,1,0
+H469,West,26,Tertiary,6,11.7,205.0,Facility,2,1
+H470,North,31,Primary,3,5.8,110.0,Home,1,1
+H471,West,30,Secondary,6,3.0,225.0,Facility,6,1
+H472,North,27,Tertiary,4,5.3,240.0,Facility,2,1
+H473,South,26,No schooling,4,9.2,170.0,Facility,1,1
+H474,East,16,Primary,7,10.6,135.0,Facility,2,0
+H475,North,32,Primary,3,9.2,185.0,Facility,3,1
+H476,West,20,Secondary,3,3.8,200.0,Facility,2,0
+H477,North,27,Primary,5,4.6,80.0,Facility,2,1
+H478,West,29,,1,10.5,210.0,Facility,4,1
+H479,South,33,,2,,70.0,Facility,1,1
+H480,East,33,Secondary,3,23.3,,Home,0,0
+H481,West,24,Primary,2,7.2,200.0,Facility,1,0
+H482,East,22,No schooling,6,34.7,120.0,Facility,5,0
+H483,North,28,Secondary,1,3.3,75.0,Facility,2,0
+H484,South,25,Primary,3,3.2,195.0,Facility,2,1
+H485,South,31,Tertiary,6,5.8,235.0,Facility,1,1
+H486,East,24,Primary,1,34.4,190.0,Facility,3,0
+H487,North,35,Tertiary,3,1.1,550.0,Home,2,1
+H488,East,28,,3,,65.0,Facility,3,0
+H489,East,25,Secondary,4,1.4,235.0,Facility,0,0
+H490,North,37,Tertiary,3,9.9,230.0,Facility,1,1
+H491,South,24,Primary,3,16.5,115.0,Home,2,0
+H492,South,28,Primary,2,13.2,115.0,Home,0,0
+H493,North,29,Primary,2,14.2,65.0,Facility,0,0
+H494,South,19,Secondary,5,1.5,130.0,Home,3,0
+H495,East,22,Primary,3,35.9,115.0,Home,3,0
+H496,South,25,Primary,1,,140.0,Home,1,0
+H497,North,19,Primary,2,21.7,,Facility,2,0
+H498,South,28,Tertiary,5,1.6,,Facility,1,1
+H499,North,25,Primary,5,4.0,185.0,Facility,2,0
+H500,South,20,Secondary,4,2.6,130.0,Home,1,1
+H501,West,26,Primary,2,6.0,135.0,Facility,1,0
+H502,South,34,Tertiary,6,7.7,320.0,Home,2,0
+H503,North,27,Primary,4,2.0,135.0,Home,1,0
+H504,West,23,No schooling,3,15.1,40.0,Home,0,0
+H505,West,27,No schooling,6,6.9,115.0,Facility,4,1
+H506,South,30,Secondary,6,8.3,340.0,Facility,1,1
+H507,East,34,Secondary,4,14.4,,Facility,3,1
+H508,East,31,Tertiary,3,13.9,,Facility,3,1
+H509,North,27,Secondary,4,8.3,,Facility,3,1
+H510,East,22,Secondary,2,21.1,360.0,Facility,3,0
+H511,North,33,Secondary,4,9.2,230.0,Facility,0,1
+H512,North,32,Primary,4,24.3,105.0,Facility,1,0
+H513,South,30,Secondary,1,10.0,175.0,Facility,1,1
+H514,North,23,,5,13.2,160.0,Home,1,1
+H515,South,22,Primary,4,10.3,305.0,Home,3,0
+H516,East,35,Secondary,3,30.5,265.0,Home,0,0
+H517,South,26,Secondary,4,6.2,220.0,Home,2,0
+H518,South,35,No schooling,4,6.2,,Home,1,0
+H519,East,16,Tertiary,4,15.1,350.0,Facility,1,1
+H520,South,21,,5,,130.0,Facility,0,1

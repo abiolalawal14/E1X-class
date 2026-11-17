@@ -1,0 +1,841 @@
+visit_id,visit_date,age,sex,ward,diagnosis,temp_c,weight_kg,height_m,wait_mins,fee,outcome,bmi,month,weekday,triage
+V0001,2025-01-01,12,M,Emergency,Respiratory infection,38.7,39.4,1.33,12,21.5,Treated,22.3,1,Wednesday,Fever
+V0002,2025-01-01,27,M,Emergency,Injury,36.9,83.2,1.7,9,17.5,Admitted,28.8,1,Wednesday,Normal
+V0003,2025-01-01,12,F,Paediatrics,Respiratory infection,38.0,34.8,1.32,47,6.0,Treated,20.0,1,Wednesday,Fever
+V0004,2025-01-01,27,F,Maternity,Antenatal check,,71.9,1.57,34,10.0,Treated,29.2,1,Wednesday,Not recorded
+V0005,2025-01-01,9,F,Paediatrics,Diarrhoea,37.6,28.7,1.08,23,4.0,Treated,24.6,1,Wednesday,Fever
+V0006,2025-01-01,23,F,Maternity,Antenatal check,37.3,69.2,1.51,53,10.5,Referred,30.3,1,Wednesday,Normal
+V0007,2025-01-02,2,M,Paediatrics,Respiratory infection,38.2,11.8,0.62,49,10.5,Treated,30.7,1,Thursday,Fever
+V0008,2025-01-03,33,M,Outpatients,Malaria,38.5,,1.84,77,10.0,Treated,,1,Friday,Fever
+V0009,2025-01-03,14,F,Paediatrics,Immunisation,36.4,42.4,1.47,35,0.0,Treated,19.6,1,Friday,Normal
+V0010,2025-01-03,30,F,Maternity,Antenatal check,37.1,38.6,1.6,44,13.5,Treated,15.1,1,Friday,Normal
+V0011,2025-01-04,14,M,Paediatrics,Respiratory infection,37.8,42.8,1.48,18,5.5,Treated,19.5,1,Saturday,Fever
+V0012,2025-01-04,30,F,Maternity,Antenatal check,,70.6,1.58,25,8.5,Referred,28.3,1,Saturday,Not recorded
+V0013,2025-01-06,72,M,Emergency,Injury,36.4,72.9,1.76,16,22.5,Referred,23.5,1,Monday,Normal
+V0014,2025-01-06,80,F,Outpatients,Diabetes,36.6,84.7,1.48,92,6.5,Treated,38.7,1,Monday,Normal
+V0015,2025-01-06,27,F,Maternity,Antenatal check,36.7,92.3,1.74,67,8.0,Referred,30.5,1,Monday,Normal
+V0016,2025-01-07,4,M,Paediatrics,Immunisation,36.5,15.5,0.83,41,0.0,Admitted,22.5,1,Tuesday,Normal
+V0017,2025-01-07,1,M,Paediatrics,Diarrhoea,37.5,7.7,0.61,42,6.0,Referred,20.7,1,Tuesday,Fever
+V0018,2025-01-07,8,F,Paediatrics,Respiratory infection,37.5,26.7,1.07,30,7.5,Treated,23.3,1,Tuesday,Fever
+V0019,2025-01-08,57,F,Outpatients,Respiratory infection,38.1,76.5,1.6,47,7.0,Treated,29.9,1,Wednesday,Fever
+V0020,2025-01-08,43,F,Outpatients,Diarrhoea,37.5,78.5,1.75,40,8.5,Treated,25.6,1,Wednesday,Fever
+V0021,2025-01-08,57,F,Outpatients,Hypertension,37.0,66.7,1.65,40,8.5,Referred,24.5,1,Wednesday,Normal
+V0022,2025-01-08,55,F,Outpatients,Diarrhoea,37.7,49.2,1.54,43,9.5,Treated,20.7,1,Wednesday,Fever
+V0023,2025-01-09,56,F,Outpatients,Respiratory infection,37.3,56.6,1.49,28,8.0,Treated,25.5,1,Thursday,Normal
+V0024,2025-01-09,20,F,Maternity,Antenatal check,36.6,66.9,1.51,34,9.0,Treated,29.3,1,Thursday,Normal
+V0025,2025-01-09,36,F,Outpatients,Malaria,39.0,62.6,1.56,43,9.0,Treated,25.7,1,Thursday,URGENT
+V0026,2025-01-09,23,F,Maternity,Antenatal check,36.8,68.2,1.52,39,9.5,Treated,29.5,1,Thursday,Normal
+V0027,2025-01-09,79,F,Outpatients,Hypertension,,72.9,1.64,45,6.0,Treated,27.1,1,Thursday,Not recorded
+V0028,2025-01-09,49,F,Outpatients,Hypertension,36.9,67.7,1.63,64,9.0,Referred,25.5,1,Thursday,Normal
+V0029,2025-01-11,39,F,Maternity,Antenatal check,36.7,52.0,1.58,12,13.0,Treated,20.8,1,Saturday,Normal
+V0030,2025-01-11,71,M,Outpatients,Hypertension,37.1,94.2,1.81,67,8.0,Treated,28.8,1,Saturday,Normal
+V0031,2025-01-11,32,F,Emergency,Injury,36.7,62.4,1.65,18,17.0,Admitted,22.9,1,Saturday,Normal
+V0032,2025-01-13,9,F,Paediatrics,Immunisation,36.5,29.7,1.15,29,0.0,Treated,22.5,1,Monday,Normal
+V0033,2025-01-13,75,M,Outpatients,Hypertension,36.8,105.4,1.76,86,6.0,Treated,34.0,1,Monday,Normal
+V0034,2025-01-14,72,F,Outpatients,Diabetes,37.0,96.3,1.69,36,10.5,Treated,33.7,1,Tuesday,Normal
+V0035,2025-01-14,20,F,Maternity,Antenatal check,36.9,99.3,1.67,46,11.0,Treated,35.6,1,Tuesday,Normal
+V0036,2025-01-16,63,F,Outpatients,Hypertension,,94.3,1.7,34,9.0,Treated,32.6,1,Thursday,Not recorded
+V0037,2025-01-16,54,F,Outpatients,Respiratory infection,37.2,78.4,1.75,20,9.5,Treated,25.6,1,Thursday,Normal
+V0038,2025-01-16,9,M,Paediatrics,Diarrhoea,37.1,29.0,1.12,43,4.5,Treated,23.1,1,Thursday,Normal
+V0039,2025-01-16,36,F,Outpatients,Respiratory infection,38.3,72.9,1.61,46,6.0,Referred,28.1,1,Thursday,Fever
+V0040,2025-01-16,27,F,Maternity,Antenatal check,37.1,67.9,1.63,21,7.5,Treated,25.6,1,Thursday,Normal
+V0041,2025-01-17,58,M,Outpatients,Hypertension,36.8,81.0,1.71,47,7.5,Treated,27.7,1,Friday,Normal
+V0042,2025-01-17,54,M,Outpatients,Diarrhoea,36.5,83.1,1.74,72,7.0,Treated,27.4,1,Friday,Normal
+V0043,2025-01-17,29,F,Maternity,Malaria,39.0,62.8,1.62,54,11.5,Admitted,23.9,1,Friday,URGENT
+V0044,2025-01-17,80,M,Outpatients,Diabetes,37.0,74.5,1.54,57,7.0,Treated,31.4,1,Friday,Normal
+V0045,2025-01-17,10,F,Paediatrics,Diarrhoea,37.1,30.3,1.24,28,7.5,Treated,19.7,1,Friday,Normal
+V0046,2025-01-18,3,F,Paediatrics,Malaria,39.1,9.4,0.76,38,7.0,Treated,16.3,1,Saturday,URGENT
+V0047,2025-01-18,39,F,Emergency,Injury,37.1,51.9,1.63,9,19.0,Admitted,19.5,1,Saturday,Normal
+V0048,2025-01-20,19,F,Maternity,Antenatal check,37.1,54.4,1.7,35,12.5,Admitted,18.8,1,Monday,Normal
+V0049,2025-01-21,53,F,Outpatients,Diarrhoea,37.7,59.9,1.71,40,8.0,Treated,20.5,1,Tuesday,Fever
+V0050,2025-01-21,58,M,Emergency,Injury,37.1,90.3,1.77,14,20.5,Referred,28.8,1,Tuesday,Normal
+V0051,2025-01-22,61,F,Outpatients,Diarrhoea,37.3,55.0,1.52,54,7.5,Referred,23.8,1,Wednesday,Normal
+V0052,2025-01-22,28,F,Maternity,Antenatal check,37.2,56.7,1.68,54,10.5,Treated,20.1,1,Wednesday,Normal
+V0053,2025-01-22,38,M,Outpatients,Hypertension,36.3,94.0,1.8,42,6.5,Treated,29.0,1,Wednesday,Normal
+V0054,2025-01-22,31,F,Outpatients,Respiratory infection,37.6,85.2,1.61,69,9.5,Admitted,32.9,1,Wednesday,Fever
+V0055,2025-01-22,52,F,Outpatients,Diarrhoea,37.6,70.2,1.58,44,9.5,Referred,28.1,1,Wednesday,Fever
+V0056,2025-01-22,6,F,Paediatrics,Respiratory infection,38.2,18.6,0.98,36,4.5,Treated,19.4,1,Wednesday,Fever
+V0057,2025-01-23,20,M,Emergency,Injury,36.4,70.1,1.74,18,19.0,Treated,23.2,1,Thursday,Normal
+V0058,2025-01-24,41,F,Outpatients,Respiratory infection,38.2,84.0,1.68,26,7.5,Treated,29.8,1,Friday,Fever
+V0059,2025-01-24,14,F,Paediatrics,Diarrhoea,37.3,41.9,1.49,23,6.0,Referred,18.9,1,Friday,Normal
+V0060,2025-01-24,1,M,Paediatrics,Diarrhoea,38.1,2.9,0.62,37,6.5,Treated,7.5,1,Friday,Fever
+V0061,2025-01-25,1,M,Paediatrics,Immunisation,37.1,2.1,0.59,51,0.0,Treated,6.0,1,Saturday,Normal
+V0062,2025-01-25,2,M,Paediatrics,Respiratory infection,37.2,9.3,0.6,36,4.5,Treated,25.8,1,Saturday,Normal
+V0063,2025-01-27,42,M,Emergency,Injury,36.6,47.8,1.66,17,20.0,Treated,17.3,1,Monday,Normal
+V0064,2025-01-27,14,M,Paediatrics,Respiratory infection,38.7,40.3,1.45,44,1.5,Treated,19.2,1,Monday,Fever
+V0065,2025-01-28,23,F,Maternity,Antenatal check,36.8,61.5,1.73,40,10.5,Referred,20.5,1,Tuesday,Normal
+V0066,2025-01-28,5,M,Paediatrics,Respiratory infection,37.5,16.8,0.9,33,8.0,Referred,20.7,1,Tuesday,Fever
+V0067,2025-01-29,74,F,Emergency,Malaria,39.5,74.8,1.56,9,20.0,Treated,30.7,1,Wednesday,URGENT
+V0068,2025-01-29,8,M,Emergency,Injury,36.7,24.4,1.06,10,20.0,Referred,21.7,1,Wednesday,Normal
+V0069,2025-01-30,51,M,Outpatients,Hypertension,36.8,95.7,1.78,74,9.5,Treated,30.2,1,Thursday,Normal
+V0070,2025-01-30,57,F,Outpatients,Malaria,36.7,61.8,1.6,33,7.0,Treated,24.1,1,Thursday,Normal
+V0071,2025-01-30,22,M,Emergency,Injury,36.5,86.9,1.73,9,20.5,Treated,29.0,1,Thursday,Normal
+V0072,2025-01-30,10,F,Paediatrics,Diarrhoea,37.5,30.5,1.24,39,7.0,Treated,19.8,1,Thursday,Fever
+V0073,2025-01-30,62,M,Outpatients,Malaria,39.2,76.0,1.76,87,7.5,Referred,24.5,1,Thursday,URGENT
+V0074,2025-01-31,36,M,Outpatients,Respiratory infection,38.1,63.4,1.69,61,8.5,Treated,22.2,1,Friday,Fever
+V0075,2025-01-31,60,F,Outpatients,Diabetes,37.2,62.3,1.53,31,9.0,Referred,26.6,1,Friday,Normal
+V0076,2025-01-31,60,F,Outpatients,Respiratory infection,38.1,80.4,1.7,70,6.5,Treated,27.8,1,Friday,Fever
+V0077,2025-01-31,5,M,Emergency,Respiratory infection,37.9,16.8,0.85,10,21.0,Treated,23.3,1,Friday,Fever
+V0078,2025-01-31,35,F,Maternity,Antenatal check,36.3,61.3,1.51,36,8.5,Treated,26.9,1,Friday,Normal
+V0079,2025-01-31,52,F,Outpatients,Diabetes,37.0,79.6,1.71,17,7.0,Treated,27.2,1,Friday,Normal
+V0080,2025-02-03,26,F,Maternity,Antenatal check,36.5,65.6,1.67,71,10.5,Treated,23.5,2,Monday,Normal
+V0081,2025-02-03,26,F,Maternity,Antenatal check,36.8,48.6,1.56,47,7.5,Treated,20.0,2,Monday,Normal
+V0082,2025-02-03,12,F,Paediatrics,Malaria,39.1,37.3,1.3,66,5.5,Treated,22.1,2,Monday,URGENT
+V0083,2025-02-03,31,M,Outpatients,Respiratory infection,37.0,73.5,1.76,94,8.5,Admitted,23.7,2,Monday,Normal
+V0084,2025-02-04,27,F,Maternity,Antenatal check,36.9,51.9,1.6,34,11.5,Treated,20.3,2,Tuesday,Normal
+V0085,2025-02-05,49,F,Outpatients,Hypertension,36.6,71.0,1.61,44,6.5,Referred,27.4,2,Wednesday,Normal
+V0086,2025-02-05,5,F,Paediatrics,Diarrhoea,36.6,16.0,0.86,33,4.0,Treated,21.6,2,Wednesday,Normal
+V0087,2025-02-05,1,M,Paediatrics,Diarrhoea,37.7,6.6,0.68,50,5.5,Admitted,14.3,2,Wednesday,Fever
+V0088,2025-02-06,0,F,Paediatrics,Diarrhoea,38.0,1.9,0.45,33,4.0,Treated,9.4,2,Thursday,Fever
+V0089,2025-02-06,20,F,Maternity,Antenatal check,37.0,60.5,1.56,32,10.5,Treated,24.9,2,Thursday,Normal
+V0090,2025-02-07,42,F,Maternity,Antenatal check,36.6,72.0,1.64,45,10.0,Treated,26.8,2,Friday,Normal
+V0091,2025-02-07,60,M,Outpatients,Diabetes,36.6,87.5,1.83,28,7.5,Admitted,26.1,2,Friday,Normal
+V0092,2025-02-07,56,M,Outpatients,Hypertension,37.1,80.2,1.66,46,9.0,Referred,29.1,2,Friday,Normal
+V0093,2025-02-07,55,F,Outpatients,Diabetes,36.7,63.7,1.59,47,8.5,Admitted,25.2,2,Friday,Normal
+V0094,2025-02-08,50,M,Emergency,Respiratory infection,37.6,74.8,1.7,9,21.5,Referred,25.9,2,Saturday,Fever
+V0095,2025-02-10,15,M,Emergency,Respiratory infection,38.7,72.5,1.72,15,20.5,Admitted,24.5,2,Monday,Fever
+V0096,2025-02-10,65,M,Outpatients,Diarrhoea,37.8,95.5,1.81,44,5.5,Treated,29.2,2,Monday,Fever
+V0097,2025-02-10,2,F,Paediatrics,Malaria,38.3,8.3,0.63,52,6.0,Treated,20.9,2,Monday,Fever
+V0098,2025-02-10,78,F,Outpatients,Hypertension,,75.3,1.57,76,11.5,Treated,30.5,2,Monday,Not recorded
+V0099,2025-02-10,20,M,Emergency,Respiratory infection,37.6,70.7,1.69,13,21.5,Treated,24.8,2,Monday,Fever
+V0100,2025-02-10,28,M,Outpatients,Respiratory infection,37.3,97.5,1.79,128,7.0,Treated,30.4,2,Monday,Normal
+V0101,2025-02-11,78,F,Outpatients,Diabetes,36.9,57.2,1.43,35,10.0,Treated,28.0,2,Tuesday,Normal
+V0102,2025-02-11,75,M,Outpatients,Hypertension,36.9,80.4,1.74,64,9.5,Treated,26.6,2,Tuesday,Normal
+V0103,2025-02-11,36,F,Maternity,Antenatal check,37.0,80.4,1.52,43,8.5,Treated,34.8,2,Tuesday,Normal
+V0104,2025-02-11,9,M,Emergency,Injury,36.8,29.1,1.12,16,20.0,Treated,23.2,2,Tuesday,Normal
+V0105,2025-02-11,59,M,Outpatients,Diarrhoea,37.2,64.3,1.71,86,8.5,Treated,22.0,2,Tuesday,Normal
+V0106,2025-02-11,67,F,Outpatients,Respiratory infection,36.2,54.6,1.48,63,7.0,Treated,24.9,2,Tuesday,Normal
+V0107,2025-02-12,65,M,Emergency,Injury,37.0,56.8,1.86,14,20.0,Treated,16.4,2,Wednesday,Normal
+V0108,2025-02-12,52,F,Outpatients,Respiratory infection,37.8,80.1,1.63,72,7.5,Treated,30.1,2,Wednesday,Fever
+V0109,2025-02-12,47,M,Outpatients,Hypertension,37.1,83.2,1.72,31,8.0,Treated,28.1,2,Wednesday,Normal
+V0110,2025-02-12,44,M,Outpatients,Respiratory infection,38.2,75.0,1.69,66,6.0,Admitted,26.3,2,Wednesday,Fever
+V0111,2025-02-12,41,F,Maternity,Antenatal check,36.4,49.3,1.57,16,9.5,Treated,20.0,2,Wednesday,Normal
+V0112,2025-02-13,9,M,Paediatrics,Respiratory infection,37.7,25.0,1.16,36,5.5,Admitted,18.6,2,Thursday,Fever
+V0113,2025-02-13,54,M,Outpatients,Hypertension,36.3,93.1,1.74,54,10.0,Treated,30.8,2,Thursday,Normal
+V0114,2025-02-13,30,M,Emergency,Injury,36.8,78.7,1.68,14,19.0,Referred,27.9,2,Thursday,Normal
+V0115,2025-02-14,7,F,Emergency,Injury,36.8,24.7,0.99,7,21.0,Treated,25.2,2,Friday,Normal
+V0116,2025-02-14,12,M,Paediatrics,Immunisation,37.1,36.2,1.38,30,0.0,Treated,19.0,2,Friday,Normal
+V0117,2025-02-15,52,M,Emergency,Respiratory infection,37.6,61.4,1.76,7,20.0,Treated,19.8,2,Saturday,Fever
+V0118,2025-02-15,12,M,Paediatrics,Immunisation,36.6,37.8,1.33,35,0.0,Treated,21.4,2,Saturday,Normal
+V0119,2025-02-15,4,F,Paediatrics,Immunisation,37.1,14.9,0.81,38,0.0,Treated,22.7,2,Saturday,Normal
+V0120,2025-02-15,80,M,Outpatients,Hypertension,36.8,95.8,1.75,66,8.5,Treated,31.3,2,Saturday,Normal
+V0121,2025-02-17,70,F,Outpatients,Respiratory infection,37.9,66.9,1.61,58,9.0,Treated,25.8,2,Monday,Fever
+V0122,2025-02-17,21,F,Maternity,Antenatal check,36.4,73.4,1.63,33,8.0,Treated,27.6,2,Monday,Normal
+V0123,2025-02-17,24,F,Maternity,Antenatal check,37.0,75.4,1.55,59,11.5,Treated,31.4,2,Monday,Normal
+V0124,2025-02-18,15,F,Emergency,Injury,37.0,54.1,1.61,20,20.0,Admitted,20.9,2,Tuesday,Normal
+V0125,2025-02-18,11,F,Paediatrics,Diarrhoea,37.1,34.7,1.28,18,6.0,Treated,21.2,2,Tuesday,Normal
+V0126,2025-02-18,7,F,Paediatrics,Diarrhoea,37.6,20.8,0.96,44,5.0,Treated,22.6,2,Tuesday,Fever
+V0127,2025-02-18,61,M,Emergency,Injury,36.3,101.8,1.95,8,17.5,Referred,26.8,2,Tuesday,Normal
+V0128,2025-02-18,29,M,Outpatients,Malaria,40.0,65.5,1.62,57,12.0,Admitted,25.0,2,Tuesday,URGENT
+V0129,2025-02-19,48,F,Outpatients,Respiratory infection,38.6,52.3,1.65,43,8.0,Referred,19.2,2,Wednesday,Fever
+V0130,2025-02-19,41,M,Outpatients,Hypertension,37.1,93.6,1.71,69,10.0,Treated,32.0,2,Wednesday,Normal
+V0131,2025-02-20,55,F,Emergency,Injury,36.9,70.9,1.63,15,20.5,Treated,26.7,2,Thursday,Normal
+V0132,2025-02-21,75,M,Outpatients,Hypertension,37.1,70.8,1.64,77,11.0,Referred,26.3,2,Friday,Normal
+V0133,2025-02-21,62,F,Emergency,Injury,36.8,53.9,1.63,15,22.0,Referred,20.3,2,Friday,Normal
+V0134,2025-02-22,12,F,Paediatrics,Diarrhoea,37.4,35.5,1.34,44,5.5,Treated,19.8,2,Saturday,Normal
+V0135,2025-02-22,21,M,Emergency,Injury,37.0,74.4,1.71,5,18.5,Referred,25.4,2,Saturday,Normal
+V0136,2025-02-24,18,F,Maternity,Antenatal check,36.9,58.7,1.64,55,7.5,Treated,21.8,2,Monday,Normal
+V0137,2025-02-24,39,F,Maternity,Antenatal check,36.9,71.9,1.62,62,11.0,Referred,27.4,2,Monday,Normal
+V0138,2025-02-24,6,F,Paediatrics,Respiratory infection,37.7,20.5,0.95,61,5.0,Treated,22.7,2,Monday,Fever
+V0139,2025-02-25,13,F,Paediatrics,Diarrhoea,37.9,39.4,1.4,34,5.0,Treated,20.1,2,Tuesday,Fever
+V0140,2025-02-25,54,M,Outpatients,Diabetes,36.5,94.3,1.74,70,7.5,Treated,31.1,2,Tuesday,Normal
+V0141,2025-02-25,79,M,Outpatients,Diabetes,36.8,78.7,1.71,30,9.0,Treated,26.9,2,Tuesday,Normal
+V0142,2025-02-26,50,F,Outpatients,Diabetes,36.9,87.6,1.59,43,7.0,Treated,34.7,2,Wednesday,Normal
+V0143,2025-02-26,35,F,Maternity,Antenatal check,36.8,52.1,1.53,37,10.5,Treated,22.3,2,Wednesday,Normal
+V0144,2025-02-27,10,M,Paediatrics,Respiratory infection,37.4,29.8,1.21,44,4.0,Treated,20.4,2,Thursday,Normal
+V0145,2025-02-27,3,F,Paediatrics,Diarrhoea,37.8,10.8,0.73,40,4.0,Treated,20.3,2,Thursday,Fever
+V0146,2025-02-27,14,M,Paediatrics,Immunisation,36.8,40.3,1.5,26,0.0,Treated,17.9,2,Thursday,Normal
+V0147,2025-02-28,52,F,Outpatients,Malaria,38.3,64.5,1.63,63,11.0,Treated,24.3,2,Friday,Fever
+V0148,2025-02-28,27,F,Emergency,Respiratory infection,38.1,69.9,1.54,15,20.0,Treated,29.5,2,Friday,Fever
+V0149,2025-02-28,26,F,Outpatients,Malaria,38.7,70.6,1.65,33,9.0,Treated,25.9,2,Friday,Fever
+V0150,2025-03-01,12,F,Paediatrics,Respiratory infection,37.6,36.1,1.31,32,5.5,Treated,21.0,3,Saturday,Fever
+V0151,2025-03-01,39,F,Maternity,Antenatal check,37.2,57.4,1.58,41,9.5,Treated,23.0,3,Saturday,Normal
+V0152,2025-03-01,49,F,Outpatients,Hypertension,36.8,82.9,1.59,47,8.5,Treated,32.8,3,Saturday,Normal
+V0153,2025-03-01,12,F,Paediatrics,Immunisation,36.9,33.3,1.34,44,0.0,Admitted,18.5,3,Saturday,Normal
+V0154,2025-03-01,44,F,Emergency,Respiratory infection,37.5,63.1,1.6,11,19.5,Treated,24.6,3,Saturday,Fever
+V0155,2025-03-03,61,F,Outpatients,Diarrhoea,37.2,74.7,1.82,100,7.5,Treated,22.6,3,Monday,Normal
+V0156,2025-03-03,4,M,Paediatrics,Malaria,38.0,16.5,0.86,44,6.0,Admitted,22.3,3,Monday,Fever
+V0157,2025-03-03,28,F,Emergency,Injury,36.5,73.1,1.68,6,20.0,Treated,25.9,3,Monday,Normal
+V0158,2025-03-04,74,F,Outpatients,Hypertension,36.6,49.0,1.57,66,8.5,Treated,19.9,3,Tuesday,Normal
+V0159,2025-03-04,24,F,Emergency,Respiratory infection,38.4,51.2,1.54,19,20.5,Admitted,21.6,3,Tuesday,Fever
+V0160,2025-03-04,53,F,Outpatients,Hypertension,36.7,86.6,1.82,40,8.0,Treated,26.1,3,Tuesday,Normal
+V0161,2025-03-05,25,M,Outpatients,Diarrhoea,37.2,59.6,1.64,44,8.0,Treated,22.2,3,Wednesday,Normal
+V0162,2025-03-05,70,M,Outpatients,Respiratory infection,37.8,66.3,1.78,89,5.5,Referred,20.9,3,Wednesday,Fever
+V0163,2025-03-07,47,M,Outpatients,Respiratory infection,38.2,75.9,1.7,40,8.5,Treated,26.3,3,Friday,Fever
+V0164,2025-03-07,31,F,Maternity,Antenatal check,36.6,52.2,1.57,33,9.0,Treated,21.2,3,Friday,Normal
+V0165,2025-03-07,81,F,Outpatients,Hypertension,36.9,63.0,1.5,51,7.5,Treated,28.0,3,Friday,Normal
+V0166,2025-03-10,54,M,Emergency,Injury,36.5,78.0,1.6,12,18.0,Treated,30.5,3,Monday,Normal
+V0167,2025-03-10,61,M,Outpatients,Hypertension,37.0,89.7,1.68,54,6.5,Treated,31.8,3,Monday,Normal
+V0168,2025-03-10,22,F,Maternity,Antenatal check,37.1,57.4,1.58,40,8.0,Admitted,23.0,3,Monday,Normal
+V0169,2025-03-10,41,M,Outpatients,Hypertension,36.8,128.6,1.85,52,6.5,Treated,37.6,3,Monday,Normal
+V0170,2025-03-11,14,F,Paediatrics,Immunisation,37.3,41.9,1.44,34,0.0,Treated,20.2,3,Tuesday,Normal
+V0171,2025-03-11,76,M,Outpatients,Hypertension,37.0,72.2,1.64,69,8.0,Treated,26.8,3,Tuesday,Normal
+V0172,2025-03-11,56,M,Outpatients,Hypertension,36.7,94.5,1.72,49,6.0,Treated,31.9,3,Tuesday,Normal
+V0173,2025-03-12,32,F,Maternity,Antenatal check,36.7,,1.6,21,10.0,Treated,,3,Wednesday,Normal
+V0174,2025-03-12,9,M,Paediatrics,Diarrhoea,37.7,25.5,1.15,56,6.0,Treated,19.3,3,Wednesday,Fever
+V0175,2025-03-12,4,M,Paediatrics,Diarrhoea,38.0,17.3,0.84,43,2.5,Treated,24.5,3,Wednesday,Fever
+V0176,2025-03-12,69,M,Emergency,Injury,36.2,74.7,1.72,8,19.5,Referred,25.3,3,Wednesday,Normal
+V0177,2025-03-13,45,M,Outpatients,Respiratory infection,38.9,58.7,1.63,59,7.0,Treated,22.1,3,Thursday,Fever
+V0178,2025-03-13,44,M,Outpatients,Hypertension,36.7,104.2,1.75,62,6.5,Treated,34.0,3,Thursday,Normal
+V0179,2025-03-13,27,F,Maternity,Antenatal check,,72.3,1.59,29,10.0,Treated,28.6,3,Thursday,Not recorded
+V0180,2025-03-14,5,M,Paediatrics,Malaria,38.1,17.8,0.92,56,5.5,Treated,21.0,3,Friday,Fever
+V0181,2025-03-14,26,F,Maternity,Antenatal check,37.0,51.5,1.66,35,8.5,Treated,18.7,3,Friday,Normal
+V0182,2025-03-14,56,M,Outpatients,Diabetes,37.1,99.6,1.79,95,12.0,Treated,31.1,3,Friday,Normal
+V0183,2025-03-17,21,F,Outpatients,Respiratory infection,38.0,51.4,1.54,58,6.5,Treated,21.7,3,Monday,Fever
+V0184,2025-03-17,40,F,Outpatients,Respiratory infection,37.0,63.5,1.54,46,5.5,Treated,26.8,3,Monday,Normal
+V0185,2025-03-17,18,M,Outpatients,Respiratory infection,37.1,94.6,1.75,66,7.5,Treated,30.9,3,Monday,Normal
+V0186,2025-03-19,11,F,Paediatrics,Diarrhoea,37.6,33.8,1.26,18,4.0,Treated,21.3,3,Wednesday,Fever
+V0187,2025-03-19,63,F,Outpatients,Respiratory infection,36.8,70.6,1.57,56,8.0,Treated,28.6,3,Wednesday,Normal
+V0188,2025-03-19,38,M,Outpatients,Hypertension,36.7,119.6,1.78,25,10.0,Referred,37.7,3,Wednesday,Normal
+V0189,2025-03-19,11,F,Paediatrics,Immunisation,37.0,32.0,1.27,10,0.0,Treated,19.8,3,Wednesday,Normal
+V0190,2025-03-19,42,M,Outpatients,Diarrhoea,37.0,70.3,1.7,49,8.5,Treated,24.3,3,Wednesday,Normal
+V0191,2025-03-19,12,F,Paediatrics,Diarrhoea,37.4,31.4,1.33,31,4.5,Admitted,17.8,3,Wednesday,Normal
+V0192,2025-03-20,21,F,Emergency,Injury,37.0,69.2,1.69,5,18.5,Admitted,24.2,3,Thursday,Normal
+V0193,2025-03-20,32,F,Maternity,Antenatal check,36.7,57.6,1.62,26,12.0,Treated,21.9,3,Thursday,Normal
+V0194,2025-03-20,59,F,Outpatients,Hypertension,37.1,75.8,1.6,40,8.0,Treated,29.6,3,Thursday,Normal
+V0195,2025-03-20,26,F,Maternity,Antenatal check,36.8,57.3,1.71,27,9.5,Treated,19.6,3,Thursday,Normal
+V0196,2025-03-21,7,F,Paediatrics,Diarrhoea,37.3,24.9,1.02,61,7.5,Treated,23.9,3,Friday,Normal
+V0197,2025-03-21,34,F,Maternity,Antenatal check,36.8,57.8,1.51,28,9.0,Treated,25.3,3,Friday,Normal
+V0198,2025-03-22,59,F,Outpatients,Diabetes,37.1,73.9,1.66,69,7.5,Treated,26.8,3,Saturday,Normal
+V0199,2025-03-22,56,M,Outpatients,Diabetes,36.8,95.2,1.71,44,7.0,Treated,32.6,3,Saturday,Normal
+V0200,2025-03-24,44,M,Outpatients,Respiratory infection,38.1,92.4,1.77,62,6.5,Treated,29.5,3,Monday,Fever
+V0201,2025-03-24,9,M,Paediatrics,Diarrhoea,37.7,26.6,1.09,74,2.0,Treated,22.4,3,Monday,Fever
+V0202,2025-03-24,67,F,Emergency,Malaria,39.2,71.7,1.56,6,20.5,Treated,29.5,3,Monday,URGENT
+V0203,2025-03-24,14,F,Paediatrics,Immunisation,36.7,41.9,1.46,58,0.0,Treated,19.7,3,Monday,Normal
+V0204,2025-03-25,56,F,Outpatients,Respiratory infection,38.7,56.1,1.57,57,7.0,Treated,22.8,3,Tuesday,Fever
+V0205,2025-03-25,59,F,Emergency,Injury,36.6,63.3,1.65,10,20.0,Referred,23.3,3,Tuesday,Normal
+V0206,2025-03-25,1,F,Paediatrics,Immunisation,37.1,4.5,0.56,28,0.0,Referred,14.3,3,Tuesday,Normal
+V0207,2025-03-25,49,F,Outpatients,Hypertension,36.6,79.5,1.53,58,9.5,Treated,34.0,3,Tuesday,Normal
+V0208,2025-03-25,32,M,Outpatients,Respiratory infection,37.9,88.6,1.69,60,6.0,Treated,31.0,3,Tuesday,Fever
+V0209,2025-03-26,62,M,Outpatients,Hypertension,37.0,81.9,1.61,44,8.5,Treated,31.6,3,Wednesday,Normal
+V0210,2025-03-26,24,M,Outpatients,Respiratory infection,38.0,74.4,1.63,68,6.5,Treated,28.0,3,Wednesday,Fever
+V0211,2025-03-26,50,F,Outpatients,Diarrhoea,38.4,71.1,1.64,26,7.5,Admitted,26.4,3,Wednesday,Fever
+V0212,2025-03-26,39,F,Maternity,Antenatal check,36.7,50.1,1.48,39,8.0,Treated,22.9,3,Wednesday,Normal
+V0213,2025-03-26,25,M,Outpatients,Respiratory infection,38.0,90.9,1.71,26,7.5,Treated,31.1,3,Wednesday,Fever
+V0214,2025-03-26,36,F,Maternity,Antenatal check,37.0,66.6,1.53,39,10.0,Treated,28.5,3,Wednesday,Normal
+V0215,2025-03-27,26,M,Emergency,Injury,36.9,89.1,1.81,9,16.5,Treated,27.2,3,Thursday,Normal
+V0216,2025-03-27,1,M,Paediatrics,Respiratory infection,38.0,4.0,0.62,55,5.5,Treated,10.4,3,Thursday,Fever
+V0217,2025-03-28,46,F,Outpatients,Malaria,39.0,68.1,1.62,56,11.5,Treated,25.9,3,Friday,URGENT
+V0218,2025-03-28,53,M,Outpatients,Respiratory infection,37.9,71.9,1.58,51,8.0,Referred,28.8,3,Friday,Fever
+V0219,2025-03-28,19,F,Outpatients,Respiratory infection,37.6,70.9,1.71,30,10.0,Treated,24.2,3,Friday,Fever
+V0220,2025-03-29,14,F,Paediatrics,Immunisation,36.7,39.4,1.46,29,0.0,Treated,18.5,3,Saturday,Normal
+V0221,2025-03-31,40,F,Maternity,Antenatal check,36.6,72.9,1.69,75,11.5,Treated,25.5,3,Monday,Normal
+V0222,2025-03-31,69,F,Emergency,Injury,37.1,55.5,1.59,6,18.5,Referred,22.0,3,Monday,Normal
+V0223,2025-03-31,34,F,Maternity,Antenatal check,36.5,81.7,1.61,28,12.5,Admitted,31.5,3,Monday,Normal
+V0224,2025-03-31,14,F,Paediatrics,Respiratory infection,38.3,43.2,1.48,134,6.5,Treated,19.7,3,Monday,Fever
+V0225,2025-04-01,6,M,Paediatrics,Malaria,38.4,19.7,0.9,33,6.5,Treated,24.3,4,Tuesday,Fever
+V0226,2025-04-01,55,F,Outpatients,Respiratory infection,37.8,91.5,1.71,54,7.5,Treated,31.3,4,Tuesday,Fever
+V0227,2025-04-01,66,M,Outpatients,Hypertension,36.9,85.2,1.86,31,8.5,Treated,24.6,4,Tuesday,Normal
+V0228,2025-04-03,5,M,Paediatrics,Diarrhoea,37.7,21.2,0.84,22,3.0,Treated,30.0,4,Thursday,Fever
+V0229,2025-04-03,12,F,Paediatrics,Malaria,38.0,34.5,1.36,48,5.0,Admitted,18.7,4,Thursday,Fever
+V0230,2025-04-03,31,M,Outpatients,Malaria,39.4,69.5,1.65,56,8.0,Treated,25.5,4,Thursday,URGENT
+V0231,2025-04-03,50,F,Outpatients,Hypertension,37.2,76.9,1.56,64,10.0,Treated,31.6,4,Thursday,Normal
+V0232,2025-04-05,16,F,Outpatients,Respiratory infection,38.5,66.7,1.67,74,8.0,Treated,23.9,4,Saturday,Fever
+V0233,2025-04-05,67,M,Outpatients,Respiratory infection,38.1,70.5,1.64,45,6.0,Treated,26.2,4,Saturday,Fever
+V0234,2025-04-05,18,F,Maternity,Malaria,38.5,35.5,1.5,35,13.0,Referred,15.8,4,Saturday,Fever
+V0235,2025-04-05,57,F,Outpatients,Hypertension,36.9,98.1,1.62,29,7.5,Treated,37.4,4,Saturday,Normal
+V0236,2025-04-05,34,F,Outpatients,Respiratory infection,38.6,79.8,1.61,34,9.5,Treated,30.8,4,Saturday,Fever
+V0237,2025-04-05,41,M,Outpatients,Respiratory infection,37.9,81.0,1.83,46,6.5,Treated,24.2,4,Saturday,Fever
+V0238,2025-04-07,8,F,Paediatrics,Immunisation,36.7,,1.02,45,0.0,Treated,,4,Monday,Normal
+V0239,2025-04-07,10,M,Paediatrics,Immunisation,36.7,31.7,1.18,38,0.0,Treated,22.8,4,Monday,Normal
+V0240,2025-04-07,12,M,Paediatrics,Respiratory infection,38.1,35.2,1.34,54,2.5,Treated,19.6,4,Monday,Fever
+V0241,2025-04-07,12,M,Paediatrics,Diarrhoea,38.1,35.9,1.32,58,5.0,Treated,20.6,4,Monday,Fever
+V0242,2025-04-07,35,M,Outpatients,Respiratory infection,38.1,67.0,1.72,78,8.0,Treated,22.6,4,Monday,Fever
+V0243,2025-04-07,53,F,Outpatients,Respiratory infection,38.8,59.8,1.53,39,4.0,Treated,25.5,4,Monday,Fever
+V0244,2025-04-08,5,M,Paediatrics,Respiratory infection,37.5,16.3,0.84,60,4.0,Treated,23.1,4,Tuesday,Fever
+V0245,2025-04-08,27,F,Outpatients,Respiratory infection,38.4,67.7,1.54,61,8.5,Treated,28.5,4,Tuesday,Fever
+V0246,2025-04-08,53,M,Emergency,Malaria,38.6,55.1,1.76,10,17.0,Treated,17.8,4,Tuesday,Fever
+V0247,2025-04-08,65,F,Outpatients,Respiratory infection,38.9,73.9,1.63,46,10.5,Treated,27.8,4,Tuesday,Fever
+V0248,2025-04-08,61,F,Outpatients,Hypertension,37.1,84.4,1.74,24,7.0,Treated,27.9,4,Tuesday,Normal
+V0249,2025-04-09,6,F,Paediatrics,Respiratory infection,37.3,19.0,0.89,28,1.0,Referred,24.0,4,Wednesday,Normal
+V0250,2025-04-09,79,F,Outpatients,Hypertension,37.1,74.6,1.49,88,9.5,Treated,33.6,4,Wednesday,Normal
+V0251,2025-04-10,3,M,Paediatrics,Respiratory infection,37.7,10.0,0.7,16,7.0,Treated,20.4,4,Thursday,Fever
+V0252,2025-04-11,38,F,Outpatients,Diabetes,36.4,73.8,1.61,46,7.5,Treated,28.5,4,Friday,Normal
+V0253,2025-04-11,9,F,Paediatrics,Immunisation,36.6,29.5,1.11,22,0.0,Treated,23.9,4,Friday,Normal
+V0254,2025-04-11,74,F,Outpatients,Hypertension,36.6,68.1,1.51,58,12.0,Referred,29.9,4,Friday,Normal
+V0255,2025-04-11,72,M,Outpatients,Hypertension,36.9,84.1,1.73,64,7.5,Treated,28.1,4,Friday,Normal
+V0256,2025-04-12,37,F,Outpatients,Respiratory infection,38.2,66.8,1.59,50,8.0,Referred,26.4,4,Saturday,Fever
+V0257,2025-04-12,41,F,Outpatients,Respiratory infection,38.1,45.0,1.44,83,8.0,Treated,21.7,4,Saturday,Fever
+V0258,2025-04-12,61,F,Outpatients,Hypertension,36.5,72.9,1.56,72,8.5,Treated,30.0,4,Saturday,Normal
+V0259,2025-04-12,24,F,Maternity,Antenatal check,36.9,88.7,1.72,33,8.5,Treated,30.0,4,Saturday,Normal
+V0260,2025-04-14,58,F,Outpatients,Diabetes,36.9,106.1,1.69,65,8.0,Treated,37.1,4,Monday,Normal
+V0261,2025-04-14,51,M,Outpatients,Respiratory infection,38.1,56.5,1.74,89,6.5,Treated,18.7,4,Monday,Fever
+V0262,2025-04-14,31,F,Outpatients,Diarrhoea,37.6,61.8,1.63,83,9.0,Treated,23.3,4,Monday,Fever
+V0263,2025-04-15,56,F,Outpatients,Diabetes,36.7,85.1,1.71,70,11.0,Treated,29.1,4,Tuesday,Normal
+V0264,2025-04-15,42,M,Emergency,Injury,36.6,79.7,1.73,16,21.5,Treated,26.6,4,Tuesday,Normal
+V0265,2025-04-16,9,F,Paediatrics,Respiratory infection,38.3,26.9,1.16,61,5.5,Treated,20.0,4,Wednesday,Fever
+V0266,2025-04-16,63,M,Outpatients,Hypertension,37.0,107.5,1.69,31,9.0,Referred,37.6,4,Wednesday,Normal
+V0267,2025-04-16,36,F,Outpatients,Respiratory infection,38.4,55.3,1.58,45,9.5,Treated,22.2,4,Wednesday,Fever
+V0268,2025-04-17,16,F,Emergency,Injury,36.6,63.9,1.63,8,21.5,Treated,24.1,4,Thursday,Normal
+V0269,2025-04-17,18,F,Maternity,Antenatal check,36.7,80.6,1.67,28,11.5,Treated,28.9,4,Thursday,Normal
+V0270,2025-04-17,13,M,Paediatrics,Malaria,38.6,41.3,1.41,21,3.5,Admitted,20.8,4,Thursday,Fever
+V0271,2025-04-17,22,F,Outpatients,Diarrhoea,37.5,67.3,1.59,94,10.0,Treated,26.6,4,Thursday,Fever
+V0272,2025-04-17,10,M,Paediatrics,Respiratory infection,37.7,27.8,1.18,44,5.5,Treated,20.0,4,Thursday,Fever
+V0273,2025-04-17,42,F,Maternity,Antenatal check,36.9,48.1,1.56,47,11.5,Treated,19.8,4,Thursday,Normal
+V0274,2025-04-18,24,F,Maternity,Antenatal check,36.5,84.8,1.64,30,8.5,Treated,31.5,4,Friday,Normal
+V0275,2025-04-19,74,F,Outpatients,Hypertension,36.6,79.1,1.68,46,5.5,Treated,28.0,4,Saturday,Normal
+V0276,2025-04-19,42,F,Emergency,Malaria,37.6,71.9,1.65,3,19.5,Treated,26.4,4,Saturday,Fever
+V0277,2025-04-19,40,M,Outpatients,Hypertension,36.5,95.7,1.78,55,6.5,Treated,30.2,4,Saturday,Normal
+V0278,2025-04-19,10,F,Paediatrics,Immunisation,36.8,30.1,1.18,43,0.0,Treated,21.6,4,Saturday,Normal
+V0279,2025-04-19,18,F,Maternity,Antenatal check,36.9,73.5,1.65,29,6.0,Treated,27.0,4,Saturday,Normal
+V0280,2025-04-21,75,F,Outpatients,Hypertension,36.5,85.1,1.61,74,5.5,Treated,32.8,4,Monday,Normal
+V0281,2025-04-22,9,F,Paediatrics,Diarrhoea,37.9,27.0,1.16,41,5.0,Admitted,20.1,4,Tuesday,Fever
+V0282,2025-04-24,9,M,Paediatrics,Immunisation,36.8,25.2,1.14,52,0.0,Treated,19.4,4,Thursday,Normal
+V0283,2025-04-24,30,F,Emergency,Injury,36.6,78.7,1.67,5,17.0,Treated,28.2,4,Thursday,Normal
+V0284,2025-04-24,47,F,Outpatients,Diabetes,36.7,49.0,1.49,34,8.5,Treated,22.1,4,Thursday,Normal
+V0285,2025-04-25,41,F,Maternity,Antenatal check,36.7,,1.53,37,10.5,Treated,,4,Friday,Normal
+V0286,2025-04-25,51,M,Outpatients,Diarrhoea,37.9,46.8,1.6,59,6.5,Treated,18.3,4,Friday,Fever
+V0287,2025-04-25,51,F,Outpatients,Diarrhoea,37.8,55.1,1.58,70,10.0,Treated,22.1,4,Friday,Fever
+V0288,2025-04-26,28,F,Emergency,Respiratory infection,37.7,68.4,1.56,13,21.5,Treated,28.1,4,Saturday,Fever
+V0289,2025-04-26,0,F,Paediatrics,Immunisation,37.0,4.9,0.53,57,0.0,Admitted,17.4,4,Saturday,Normal
+V0290,2025-04-26,58,F,Outpatients,Respiratory infection,37.5,67.5,1.58,38,8.5,Treated,27.0,4,Saturday,Fever
+V0291,2025-04-28,2,F,Paediatrics,Malaria,37.6,11.5,0.67,55,6.5,Admitted,25.6,4,Monday,Fever
+V0292,2025-04-28,34,F,Outpatients,Diarrhoea,38.2,73.9,1.57,72,8.5,Treated,30.0,4,Monday,Fever
+V0293,2025-04-29,81,M,Outpatients,Diabetes,37.1,101.4,1.65,53,7.0,Treated,37.2,4,Tuesday,Normal
+V0294,2025-04-29,65,F,Outpatients,Malaria,39.8,76.2,1.6,83,7.0,Treated,29.8,4,Tuesday,URGENT
+V0295,2025-04-29,38,F,Maternity,Antenatal check,36.6,53.2,1.68,25,11.0,Treated,18.8,4,Tuesday,Normal
+V0296,2025-04-29,33,F,Maternity,Antenatal check,37.2,70.8,1.57,51,10.0,Treated,28.7,4,Tuesday,Normal
+V0297,2025-04-30,9,M,Paediatrics,Immunisation,36.7,29.0,1.1,32,0.0,Treated,24.0,4,Wednesday,Normal
+V0298,2025-05-01,71,F,Outpatients,Hypertension,37.0,93.3,1.64,87,9.5,Referred,34.7,5,Thursday,Normal
+V0299,2025-05-01,53,M,Outpatients,Respiratory infection,37.5,82.4,1.76,57,9.5,Admitted,26.6,5,Thursday,Fever
+V0300,2025-05-02,22,F,Outpatients,Respiratory infection,37.9,69.8,1.63,70,8.5,Treated,26.3,5,Friday,Fever
+V0301,2025-05-02,40,F,Maternity,Antenatal check,36.3,61.3,1.59,25,10.0,Treated,24.2,5,Friday,Normal
+V0302,2025-05-03,21,F,Maternity,Antenatal check,36.6,53.9,1.57,24,10.0,Treated,21.9,5,Saturday,Normal
+V0303,2025-05-05,14,F,Paediatrics,Malaria,39.0,40.5,1.44,61,5.0,Treated,19.5,5,Monday,URGENT
+V0304,2025-05-05,65,F,Outpatients,Diabetes,36.8,73.9,1.73,55,7.0,Treated,24.7,5,Monday,Normal
+V0305,2025-05-05,49,F,Outpatients,Diarrhoea,37.3,52.2,1.5,73,6.5,Treated,23.2,5,Monday,Normal
+V0306,2025-05-05,18,M,Outpatients,Respiratory infection,38.1,87.3,1.82,42,10.5,Treated,26.4,5,Monday,Fever
+V0307,2025-05-07,29,F,Maternity,Antenatal check,37.2,61.9,1.68,35,11.0,Treated,21.9,5,Wednesday,Normal
+V0308,2025-05-07,24,F,Outpatients,Respiratory infection,38.1,57.4,1.66,34,8.0,Treated,20.8,5,Wednesday,Fever
+V0309,2025-05-08,21,F,Maternity,Antenatal check,36.8,,1.61,24,9.0,Treated,,5,Thursday,Normal
+V0310,2025-05-08,54,M,Outpatients,Hypertension,36.8,87.4,1.57,73,7.5,Treated,35.5,5,Thursday,Normal
+V0311,2025-05-10,33,F,Maternity,Antenatal check,36.9,88.3,1.73,32,7.0,Admitted,29.5,5,Saturday,Normal
+V0312,2025-05-12,34,F,Maternity,Antenatal check,37.0,62.0,1.62,64,10.5,Admitted,23.6,5,Monday,Normal
+V0313,2025-05-12,62,M,Outpatients,Diabetes,36.9,86.6,1.72,92,7.0,Treated,29.3,5,Monday,Normal
+V0314,2025-05-12,33,M,Outpatients,Respiratory infection,36.7,74.5,1.71,55,6.5,Referred,25.5,5,Monday,Normal
+V0315,2025-05-12,42,F,Maternity,Malaria,38.3,70.3,1.54,44,11.0,Admitted,29.6,5,Monday,Fever
+V0316,2025-05-12,65,F,Emergency,Malaria,,76.4,1.58,8,20.0,Treated,30.6,5,Monday,Not recorded
+V0317,2025-05-12,23,F,Maternity,Antenatal check,37.2,71.0,1.76,44,10.0,Treated,22.9,5,Monday,Normal
+V0318,2025-05-12,38,F,Maternity,Antenatal check,37.0,88.5,1.74,39,11.0,Treated,29.2,5,Monday,Normal
+V0319,2025-05-13,11,M,Paediatrics,Respiratory infection,38.0,33.1,1.29,31,5.5,Treated,19.9,5,Tuesday,Fever
+V0320,2025-05-13,44,M,Emergency,Injury,36.7,82.5,1.78,8,17.5,Treated,26.0,5,Tuesday,Normal
+V0321,2025-05-14,25,F,Outpatients,Diarrhoea,38.2,62.5,1.62,39,7.5,Treated,23.8,5,Wednesday,Fever
+V0322,2025-05-14,10,F,Paediatrics,Immunisation,36.8,31.4,1.19,42,0.0,Treated,22.2,5,Wednesday,Normal
+V0323,2025-05-14,20,F,Outpatients,Diarrhoea,36.9,53.2,1.47,21,7.0,Treated,24.6,5,Wednesday,Normal
+V0324,2025-05-15,7,F,Paediatrics,Diarrhoea,37.0,21.6,0.96,15,6.0,Treated,23.4,5,Thursday,Normal
+V0325,2025-05-15,28,M,Outpatients,Malaria,,77.5,1.72,60,10.5,Treated,26.2,5,Thursday,Not recorded
+V0326,2025-05-16,34,F,Maternity,Antenatal check,36.9,77.8,1.64,21,8.0,Treated,28.9,5,Friday,Normal
+V0327,2025-05-17,21,F,Maternity,Antenatal check,36.8,58.4,1.57,90,10.5,Treated,23.7,5,Saturday,Normal
+V0328,2025-05-19,1,M,Paediatrics,Respiratory infection,38.4,4.3,0.62,39,4.5,Treated,11.2,5,Monday,Fever
+V0329,2025-05-19,10,M,Emergency,Respiratory infection,37.7,32.6,1.25,12,22.0,Admitted,20.9,5,Monday,Fever
+V0330,2025-05-19,38,F,Outpatients,Malaria,38.3,59.1,1.61,41,6.0,Treated,22.8,5,Monday,Fever
+V0331,2025-05-20,44,M,Outpatients,Diarrhoea,37.3,65.1,1.61,45,7.5,Treated,25.1,5,Tuesday,Normal
+V0332,2025-05-20,37,F,Maternity,Antenatal check,37.1,51.2,1.58,25,11.5,Treated,20.5,5,Tuesday,Normal
+V0333,2025-05-20,58,M,Outpatients,Malaria,38.0,71.0,1.77,46,9.0,Admitted,22.7,5,Tuesday,Fever
+V0334,2025-05-20,57,F,Outpatients,Diarrhoea,37.3,56.5,1.63,40,6.5,Treated,21.3,5,Tuesday,Normal
+V0335,2025-05-21,23,F,Emergency,Injury,36.6,73.9,1.77,7,20.0,Admitted,23.6,5,Wednesday,Normal
+V0336,2025-05-21,5,F,Paediatrics,Respiratory infection,37.4,17.5,0.84,31,6.5,Treated,24.8,5,Wednesday,Normal
+V0337,2025-05-21,60,M,Emergency,Malaria,39.7,78.1,1.75,8,20.0,Treated,25.5,5,Wednesday,URGENT
+V0338,2025-05-21,39,F,Maternity,Antenatal check,36.9,62.9,1.49,45,9.0,Treated,28.3,5,Wednesday,Normal
+V0339,2025-05-22,37,F,Maternity,Antenatal check,36.6,70.7,1.65,51,8.5,Referred,26.0,5,Thursday,Normal
+V0340,2025-05-22,14,F,Paediatrics,Malaria,38.5,40.9,1.47,41,5.5,Treated,18.9,5,Thursday,Fever
+V0341,2025-05-23,1,M,Paediatrics,Malaria,38.8,8.7,0.57,33,4.0,Admitted,26.8,5,Friday,Fever
+V0342,2025-05-23,75,F,Outpatients,Hypertension,36.9,69.2,1.57,40,7.5,Treated,28.1,5,Friday,Normal
+V0343,2025-05-23,44,F,Outpatients,Respiratory infection,38.4,69.6,1.61,41,8.5,Treated,26.9,5,Friday,Fever
+V0344,2025-05-24,69,F,Outpatients,Respiratory infection,38.3,67.0,1.76,53,8.0,Treated,21.6,5,Saturday,Fever
+V0345,2025-05-24,66,M,Emergency,Injury,36.5,67.0,1.67,18,17.5,Treated,24.0,5,Saturday,Normal
+V0346,2025-05-26,8,F,Emergency,Respiratory infection,37.9,26.4,1.11,11,19.5,Treated,21.4,5,Monday,Fever
+V0347,2025-05-26,12,M,Paediatrics,Respiratory infection,38.1,37.4,1.33,51,6.0,Treated,21.1,5,Monday,Fever
+V0348,2025-05-27,50,M,Outpatients,Diabetes,36.6,95.0,1.63,18,8.0,Treated,35.8,5,Tuesday,Normal
+V0349,2025-05-27,37,F,Outpatients,Malaria,39.5,63.2,1.58,75,6.5,Referred,25.3,5,Tuesday,URGENT
+V0350,2025-05-28,63,F,Emergency,Injury,37.0,59.5,1.53,10,21.0,Referred,25.4,5,Wednesday,Normal
+V0351,2025-05-28,76,F,Outpatients,Diabetes,36.6,75.4,1.7,68,8.0,Treated,26.1,5,Wednesday,Normal
+V0352,2025-05-28,22,F,Outpatients,Malaria,39.2,48.6,1.57,82,7.0,Treated,19.7,5,Wednesday,URGENT
+V0353,2025-05-29,21,M,Outpatients,Respiratory infection,38.7,75.9,1.78,81,9.0,Treated,24.0,5,Thursday,Fever
+V0354,2025-05-29,62,M,Emergency,Respiratory infection,38.8,75.6,1.77,7,20.0,Admitted,24.1,5,Thursday,Fever
+V0355,2025-05-29,18,F,Maternity,Antenatal check,36.7,73.5,1.68,39,11.5,Treated,26.0,5,Thursday,Normal
+V0356,2025-05-30,68,F,Emergency,Injury,37.0,,1.59,22,17.0,Treated,,5,Friday,Normal
+V0357,2025-05-31,25,F,Maternity,Antenatal check,36.6,60.7,1.61,39,11.5,Treated,23.4,5,Saturday,Normal
+V0358,2025-05-31,46,F,Outpatients,Respiratory infection,37.9,49.1,1.55,52,5.0,Treated,20.4,5,Saturday,Fever
+V0359,2025-05-31,11,M,Paediatrics,Malaria,39.2,35.9,1.24,26,5.0,Treated,23.3,5,Saturday,URGENT
+V0360,2025-05-31,1,M,Paediatrics,Immunisation,36.6,7.7,0.62,51,0.0,Treated,20.0,5,Saturday,Normal
+V0361,2025-05-31,43,M,Outpatients,Diabetes,36.9,79.3,1.67,54,10.5,Treated,28.4,5,Saturday,Normal
+V0362,2025-05-31,5,M,Emergency,Injury,36.7,17.2,0.88,11,22.0,Referred,22.2,5,Saturday,Normal
+V0363,2025-06-02,4,M,Paediatrics,Respiratory infection,38.1,14.3,0.72,37,6.5,Treated,27.6,6,Monday,Fever
+V0364,2025-06-02,49,M,Outpatients,Malaria,38.4,82.1,1.75,53,6.5,Treated,26.8,6,Monday,Fever
+V0365,2025-06-03,37,F,Maternity,Antenatal check,37.3,66.9,1.43,27,8.0,Treated,32.7,6,Tuesday,Normal
+V0366,2025-06-03,33,M,Emergency,Injury,36.8,78.4,1.71,8,19.5,Admitted,26.8,6,Tuesday,Normal
+V0367,2025-06-03,48,F,Outpatients,Hypertension,37.1,73.4,1.57,46,7.0,Treated,29.8,6,Tuesday,Normal
+V0368,2025-06-04,67,F,Outpatients,Malaria,39.5,57.9,1.53,31,6.5,Treated,24.7,6,Wednesday,URGENT
+V0369,2025-06-05,3,F,Paediatrics,Malaria,38.4,12.3,0.72,48,5.0,Treated,23.7,6,Thursday,Fever
+V0370,2025-06-06,61,F,Outpatients,Diabetes,36.9,68.9,1.56,62,10.0,Treated,28.3,6,Friday,Normal
+V0371,2025-06-07,11,M,Paediatrics,Immunisation,36.9,33.1,1.26,36,0.0,Treated,20.8,6,Saturday,Normal
+V0372,2025-06-07,16,F,Outpatients,Diarrhoea,37.3,60.4,1.49,35,8.5,Treated,27.2,6,Saturday,Normal
+V0373,2025-06-07,60,M,Outpatients,Hypertension,36.8,78.1,1.69,55,6.0,Treated,27.3,6,Saturday,Normal
+V0374,2025-06-09,62,M,Outpatients,Hypertension,37.2,76.3,1.69,77,9.5,Treated,26.7,6,Monday,Normal
+V0375,2025-06-09,30,F,Maternity,Antenatal check,36.6,88.0,1.6,58,11.0,Referred,34.4,6,Monday,Normal
+V0376,2025-06-10,25,M,Outpatients,Malaria,39.2,103.5,1.76,78,6.5,Admitted,33.4,6,Tuesday,URGENT
+V0377,2025-06-10,7,F,Paediatrics,Respiratory infection,37.3,23.3,0.99,33,5.5,Treated,23.8,6,Tuesday,Normal
+V0378,2025-06-10,30,M,Outpatients,Malaria,37.6,74.1,1.74,44,7.0,Treated,24.5,6,Tuesday,Fever
+V0379,2025-06-10,68,M,Outpatients,Malaria,39.8,55.2,1.83,33,5.5,Treated,16.5,6,Tuesday,URGENT
+V0380,2025-06-10,35,F,Maternity,Antenatal check,36.4,72.7,1.74,45,9.5,Treated,24.0,6,Tuesday,Normal
+V0381,2025-06-11,52,F,Emergency,Injury,36.3,66.1,1.71,9,23.5,Treated,22.6,6,Wednesday,Normal
+V0382,2025-06-11,23,M,Outpatients,Malaria,38.4,74.8,1.67,75,9.5,Admitted,26.8,6,Wednesday,Fever
+V0383,2025-06-11,38,F,Maternity,Antenatal check,37.0,59.4,1.57,38,9.5,Treated,24.1,6,Wednesday,Normal
+V0384,2025-06-11,55,F,Outpatients,Hypertension,36.6,101.4,1.68,57,8.0,Admitted,35.9,6,Wednesday,Normal
+V0385,2025-06-11,29,F,Maternity,Antenatal check,36.7,75.9,1.62,27,10.5,Treated,28.9,6,Wednesday,Normal
+V0386,2025-06-12,55,F,Outpatients,Diabetes,36.5,72.3,1.65,30,6.5,Treated,26.6,6,Thursday,Normal
+V0387,2025-06-12,1,F,Paediatrics,Respiratory infection,37.7,1.5,0.57,40,4.0,Treated,4.6,6,Thursday,Fever
+V0388,2025-06-12,10,F,Paediatrics,Diarrhoea,37.4,31.8,1.2,58,6.0,Treated,22.1,6,Thursday,Normal
+V0389,2025-06-13,49,F,Outpatients,Diabetes,36.8,59.2,1.49,59,9.0,Referred,26.7,6,Friday,Normal
+V0390,2025-06-13,28,F,Emergency,Injury,36.9,59.6,1.69,11,21.0,Referred,20.9,6,Friday,Normal
+V0391,2025-06-13,68,M,Outpatients,Hypertension,37.1,95.7,1.77,33,9.0,Treated,30.5,6,Friday,Normal
+V0392,2025-06-13,23,F,Maternity,Antenatal check,37.0,87.8,1.66,34,10.5,Treated,31.9,6,Friday,Normal
+V0393,2025-06-13,3,M,Paediatrics,Respiratory infection,38.0,13.2,0.77,28,7.5,Treated,22.3,6,Friday,Fever
+V0394,2025-06-14,57,M,Outpatients,Hypertension,37.0,84.0,1.65,57,7.5,Treated,30.9,6,Saturday,Normal
+V0395,2025-06-14,26,M,Outpatients,Respiratory infection,38.4,103.3,1.72,59,5.5,Admitted,34.9,6,Saturday,Fever
+V0396,2025-06-16,36,F,Maternity,Antenatal check,36.8,,1.71,89,12.0,Treated,,6,Monday,Normal
+V0397,2025-06-16,60,M,Outpatients,Diarrhoea,37.1,77.1,1.67,56,10.5,Treated,27.6,6,Monday,Normal
+V0398,2025-06-17,18,F,Maternity,Malaria,38.6,61.2,1.56,34,9.5,Treated,25.1,6,Tuesday,Fever
+V0399,2025-06-17,64,M,Outpatients,Malaria,39.5,83.5,1.84,67,8.0,Treated,24.7,6,Tuesday,URGENT
+V0400,2025-06-17,64,M,Outpatients,Respiratory infection,37.9,73.6,1.75,52,8.5,Treated,24.0,6,Tuesday,Fever
+V0401,2025-06-17,13,M,Paediatrics,Malaria,38.8,37.1,1.41,42,3.5,Treated,18.7,6,Tuesday,Fever
+V0402,2025-06-18,10,M,Paediatrics,Malaria,39.1,29.8,1.24,51,5.0,Treated,19.4,6,Wednesday,URGENT
+V0403,2025-06-19,70,F,Outpatients,Diabetes,36.7,104.1,1.56,47,4.5,Treated,42.8,6,Thursday,Normal
+V0404,2025-06-19,39,F,Maternity,Antenatal check,36.8,63.2,1.52,25,8.5,Treated,27.4,6,Thursday,Normal
+V0405,2025-06-20,64,M,Emergency,Injury,36.7,98.1,1.82,8,20.5,Referred,29.6,6,Friday,Normal
+V0406,2025-06-21,31,F,Emergency,Malaria,38.7,,1.74,9,21.0,Admitted,,6,Saturday,Fever
+V0407,2025-06-21,38,F,Outpatients,Hypertension,37.0,75.2,1.67,49,9.5,Treated,27.0,6,Saturday,Normal
+V0408,2025-06-21,73,M,Outpatients,Hypertension,36.8,119.2,1.78,24,9.0,Treated,37.6,6,Saturday,Normal
+V0409,2025-06-23,35,F,Outpatients,Malaria,40.1,78.9,1.59,113,6.5,Admitted,31.2,6,Monday,URGENT
+V0410,2025-06-23,9,M,Paediatrics,Immunisation,36.9,25.9,1.18,36,0.0,Treated,18.6,6,Monday,Normal
+V0411,2025-06-25,22,M,Outpatients,Diarrhoea,38.4,85.5,1.73,60,8.0,Admitted,28.6,6,Wednesday,Fever
+V0412,2025-06-25,28,F,Maternity,Antenatal check,36.7,68.5,1.64,42,9.5,Treated,25.5,6,Wednesday,Normal
+V0413,2025-06-25,8,F,Emergency,Injury,36.5,25.1,1.06,22,20.0,Referred,22.3,6,Wednesday,Normal
+V0414,2025-06-26,50,F,Emergency,Injury,36.8,61.8,1.54,7,20.0,Treated,26.1,6,Thursday,Normal
+V0415,2025-06-26,57,F,Outpatients,Respiratory infection,38.6,75.8,1.59,35,8.5,Treated,30.0,6,Thursday,Fever
+V0416,2025-06-28,60,M,Emergency,Injury,36.3,88.1,1.75,5,16.5,Treated,28.8,6,Saturday,Normal
+V0417,2025-06-28,49,M,Outpatients,Hypertension,36.8,94.0,1.62,43,9.0,Treated,35.8,6,Saturday,Normal
+V0418,2025-06-30,37,M,Outpatients,Malaria,38.4,66.6,1.73,86,10.5,Admitted,22.3,6,Monday,Fever
+V0419,2025-06-30,53,F,Outpatients,Diabetes,36.7,75.2,1.53,43,9.0,Treated,32.1,6,Monday,Normal
+V0420,2025-06-30,64,F,Outpatients,Malaria,38.9,83.0,1.67,94,8.5,Treated,29.8,6,Monday,Fever
+V0421,2025-06-30,40,F,Outpatients,Diarrhoea,37.7,72.8,1.58,53,8.5,Treated,29.2,6,Monday,Fever
+V0422,2025-06-30,61,M,Outpatients,Respiratory infection,38.1,58.3,1.66,51,8.5,Treated,21.2,6,Monday,Fever
+V0423,2025-06-30,26,F,Emergency,Injury,36.6,71.8,1.61,20,20.0,Treated,27.7,6,Monday,Normal
+V0424,2025-07-01,33,M,Outpatients,Malaria,39.3,80.6,1.75,46,8.0,Treated,26.3,7,Tuesday,URGENT
+V0425,2025-07-01,19,F,Maternity,Antenatal check,36.9,55.6,1.66,26,10.0,Treated,20.2,7,Tuesday,Normal
+V0426,2025-07-01,16,F,Outpatients,Malaria,38.9,55.3,1.67,50,7.0,Treated,19.8,7,Tuesday,Fever
+V0427,2025-07-01,69,F,Outpatients,Diabetes,36.7,77.9,1.65,52,7.5,Referred,28.6,7,Tuesday,Normal
+V0428,2025-07-01,5,M,Paediatrics,Malaria,38.9,16.3,0.86,19,5.5,Admitted,22.0,7,Tuesday,Fever
+V0429,2025-07-02,57,F,Outpatients,Diarrhoea,37.2,53.0,1.62,71,7.0,Treated,20.2,7,Wednesday,Normal
+V0430,2025-07-02,11,M,Emergency,Malaria,39.1,34.0,1.22,10,19.0,Treated,22.8,7,Wednesday,URGENT
+V0431,2025-07-02,54,F,Outpatients,Malaria,38.8,70.9,1.75,29,6.5,Treated,23.2,7,Wednesday,Fever
+V0432,2025-07-02,64,F,Outpatients,Malaria,38.9,76.4,1.71,49,11.5,Treated,26.1,7,Wednesday,Fever
+V0433,2025-07-03,35,F,Emergency,Malaria,38.4,55.1,1.51,11,19.5,Admitted,24.2,7,Thursday,Fever
+V0434,2025-07-03,18,F,Maternity,Malaria,38.4,47.6,1.42,43,13.0,Treated,23.6,7,Thursday,Fever
+V0435,2025-07-03,42,F,Outpatients,Malaria,39.4,57.6,1.47,34,6.5,Treated,26.7,7,Thursday,URGENT
+V0436,2025-07-05,62,F,Outpatients,Malaria,38.5,65.5,1.58,37,8.0,Admitted,26.2,7,Saturday,Fever
+V0437,2025-07-05,62,M,Outpatients,Diarrhoea,37.0,67.0,1.7,73,6.5,Treated,23.2,7,Saturday,Normal
+V0438,2025-07-05,0,M,Paediatrics,Immunisation,36.8,1.3,0.48,35,0.0,Treated,5.6,7,Saturday,Normal
+V0439,2025-07-05,22,F,Maternity,Antenatal check,36.5,58.4,1.63,30,8.5,Treated,22.0,7,Saturday,Normal
+V0440,2025-07-07,8,F,Emergency,Injury,,21.1,1.06,7,21.0,Treated,18.8,7,Monday,Not recorded
+V0441,2025-07-07,44,F,Outpatients,Hypertension,,64.2,1.6,74,8.5,Treated,25.1,7,Monday,Not recorded
+V0442,2025-07-07,65,F,Emergency,Malaria,38.6,49.3,1.53,8,22.0,Treated,21.1,7,Monday,Fever
+V0443,2025-07-07,19,F,Emergency,Injury,37.1,61.7,1.55,15,19.5,Referred,25.7,7,Monday,Normal
+V0444,2025-07-08,41,F,Maternity,Antenatal check,37.3,60.8,1.54,49,11.0,Treated,25.6,7,Tuesday,Normal
+V0445,2025-07-08,19,F,Emergency,Respiratory infection,36.9,54.8,1.68,11,20.5,Treated,19.4,7,Tuesday,Normal
+V0446,2025-07-09,43,M,Outpatients,Diabetes,36.7,91.2,1.75,87,7.5,Treated,29.8,7,Wednesday,Normal
+V0447,2025-07-09,28,F,Maternity,Antenatal check,37.0,60.1,1.67,41,11.0,Treated,21.5,7,Wednesday,Normal
+V0448,2025-07-09,73,F,Emergency,Malaria,37.7,69.5,1.61,6,22.0,Admitted,26.8,7,Wednesday,Fever
+V0449,2025-07-11,11,M,Paediatrics,Respiratory infection,37.6,31.8,1.29,31,4.0,Treated,19.1,7,Friday,Fever
+V0450,2025-07-12,14,M,Paediatrics,Malaria,38.7,39.8,1.5,26,6.0,Referred,17.7,7,Saturday,Fever
+V0451,2025-07-12,25,F,Outpatients,Respiratory infection,37.2,66.7,1.63,62,8.0,Treated,25.1,7,Saturday,Normal
+V0452,2025-07-14,3,F,Paediatrics,Respiratory infection,38.3,12.1,0.7,58,2.5,Treated,24.7,7,Monday,Fever
+V0453,2025-07-14,49,F,Outpatients,Respiratory infection,39.0,56.7,1.48,96,9.5,Treated,25.9,7,Monday,URGENT
+V0454,2025-07-14,4,F,Paediatrics,Malaria,,15.9,0.78,37,2.5,Treated,26.1,7,Monday,Not recorded
+V0455,2025-07-14,34,F,Outpatients,Malaria,39.6,65.6,1.52,52,5.5,Treated,28.4,7,Monday,URGENT
+V0456,2025-07-15,9,M,Paediatrics,Diarrhoea,38.1,26.4,1.09,41,6.0,Treated,22.2,7,Tuesday,Fever
+V0457,2025-07-15,65,F,Outpatients,Hypertension,37.0,74.2,1.62,46,10.5,Treated,28.3,7,Tuesday,Normal
+V0458,2025-07-15,38,M,Emergency,Injury,37.0,72.2,1.62,11,20.0,Treated,27.5,7,Tuesday,Normal
+V0459,2025-07-16,8,M,Paediatrics,Malaria,38.2,26.1,1.03,37,3.5,Treated,24.6,7,Wednesday,Fever
+V0460,2025-07-16,35,F,Outpatients,Respiratory infection,37.5,81.3,1.68,43,8.5,Referred,28.8,7,Wednesday,Fever
+V0461,2025-07-16,9,M,Paediatrics,Malaria,38.5,27.2,1.14,35,6.0,Admitted,20.9,7,Wednesday,Fever
+V0462,2025-07-16,41,F,Maternity,Antenatal check,36.9,87.0,1.72,42,12.0,Treated,29.4,7,Wednesday,Normal
+V0463,2025-07-16,59,F,Outpatients,Malaria,38.6,77.2,1.63,54,6.5,Treated,29.1,7,Wednesday,Fever
+V0464,2025-07-17,58,F,Outpatients,Diabetes,36.7,71.0,1.64,69,5.5,Treated,26.4,7,Thursday,Normal
+V0465,2025-07-17,49,M,Outpatients,Malaria,38.8,66.3,1.77,46,7.5,Treated,21.2,7,Thursday,Fever
+V0466,2025-07-17,74,M,Emergency,Respiratory infection,37.6,53.7,1.6,9,20.5,Admitted,21.0,7,Thursday,Fever
+V0467,2025-07-17,8,F,Paediatrics,Malaria,39.8,26.4,1.07,42,6.5,Treated,23.1,7,Thursday,URGENT
+V0468,2025-07-18,31,F,Maternity,Antenatal check,36.3,61.5,1.64,25,9.0,Treated,22.9,7,Friday,Normal
+V0469,2025-07-18,75,F,Outpatients,Hypertension,37.2,71.1,1.69,53,10.0,Treated,24.9,7,Friday,Normal
+V0470,2025-07-18,60,F,Outpatients,Hypertension,36.9,66.3,1.55,56,8.5,Treated,27.6,7,Friday,Normal
+V0471,2025-07-19,47,F,Outpatients,Malaria,38.8,47.0,1.49,61,9.0,Referred,21.2,7,Saturday,Fever
+V0472,2025-07-21,32,F,Maternity,Antenatal check,36.6,73.6,1.69,26,10.5,Treated,25.8,7,Monday,Normal
+V0473,2025-07-21,43,M,Outpatients,Malaria,38.6,73.8,1.77,74,6.5,Admitted,23.6,7,Monday,Fever
+V0474,2025-07-21,21,F,Maternity,Antenatal check,,55.1,1.6,56,10.5,Treated,21.5,7,Monday,Not recorded
+V0475,2025-07-22,18,F,Emergency,Injury,,61.7,1.55,9,19.5,Treated,25.7,7,Tuesday,Not recorded
+V0476,2025-07-22,61,M,Emergency,Injury,37.4,47.0,1.69,8,19.0,Treated,16.5,7,Tuesday,Normal
+V0477,2025-07-23,38,M,Emergency,Malaria,39.1,76.2,1.72,18,20.5,Treated,25.8,7,Wednesday,URGENT
+V0478,2025-07-23,39,M,Outpatients,Diabetes,36.5,92.9,1.72,98,7.0,Treated,31.4,7,Wednesday,Normal
+V0479,2025-07-23,47,F,Outpatients,Diarrhoea,37.5,52.3,1.55,47,8.5,Treated,21.8,7,Wednesday,Fever
+V0480,2025-07-23,42,F,Outpatients,Malaria,39.2,72.2,1.57,53,7.5,Referred,29.3,7,Wednesday,URGENT
+V0481,2025-07-23,77,M,Outpatients,Diabetes,36.6,71.5,1.75,72,4.5,Treated,23.3,7,Wednesday,Normal
+V0482,2025-07-24,8,M,Paediatrics,Respiratory infection,37.3,23.4,1.08,56,6.5,Treated,20.1,7,Thursday,Normal
+V0483,2025-07-24,54,M,Emergency,Injury,36.3,70.3,1.7,9,19.5,Treated,24.3,7,Thursday,Normal
+V0484,2025-07-24,77,M,Outpatients,Diabetes,37.0,110.6,1.77,105,7.0,Referred,35.3,7,Thursday,Normal
+V0485,2025-07-24,75,M,Outpatients,Diabetes,36.7,130.0,1.88,26,8.0,Treated,36.8,7,Thursday,Normal
+V0486,2025-07-25,56,F,Outpatients,Malaria,38.4,77.4,1.68,48,10.0,Treated,27.4,7,Friday,Fever
+V0487,2025-07-26,69,F,Outpatients,Diabetes,37.1,,1.51,36,6.0,Referred,,7,Saturday,Normal
+V0488,2025-07-26,46,F,Outpatients,Malaria,40.2,81.6,1.66,83,7.0,Treated,29.6,7,Saturday,URGENT
+V0489,2025-07-26,67,M,Outpatients,Diabetes,36.8,102.5,1.76,25,8.0,Treated,33.1,7,Saturday,Normal
+V0490,2025-07-26,8,M,Paediatrics,Respiratory infection,,23.4,1.07,44,6.5,Treated,20.4,7,Saturday,Not recorded
+V0491,2025-07-26,41,F,Emergency,Malaria,39.5,55.9,1.6,10,19.5,Treated,21.8,7,Saturday,URGENT
+V0492,2025-07-26,19,M,Outpatients,Malaria,37.4,66.9,1.65,50,5.5,Treated,24.6,7,Saturday,Normal
+V0493,2025-07-28,9,M,Paediatrics,Malaria,38.3,28.5,1.11,48,3.0,Treated,23.1,7,Monday,Fever
+V0494,2025-07-28,51,F,Outpatients,Malaria,38.1,78.5,1.6,54,8.5,Admitted,30.7,7,Monday,Fever
+V0495,2025-07-28,3,M,Paediatrics,Respiratory infection,37.7,14.7,0.74,46,4.0,Treated,26.8,7,Monday,Fever
+V0496,2025-07-28,1,M,Paediatrics,Diarrhoea,37.3,5.5,0.61,63,7.5,Treated,14.8,7,Monday,Normal
+V0497,2025-07-30,54,M,Outpatients,Hypertension,36.8,100.4,1.69,25,7.5,Treated,35.2,7,Wednesday,Normal
+V0498,2025-07-31,44,F,Outpatients,Hypertension,36.9,92.0,1.73,52,8.0,Treated,30.7,7,Thursday,Normal
+V0499,2025-07-31,13,M,Paediatrics,Immunisation,36.4,36.5,1.37,21,0.0,Referred,19.4,7,Thursday,Normal
+V0500,2025-07-31,67,M,Outpatients,Diarrhoea,38.3,78.7,1.78,24,9.5,Treated,24.8,7,Thursday,Fever
+V0501,2025-07-31,18,M,Outpatients,Malaria,39.4,90.6,1.7,44,12.0,Admitted,31.3,7,Thursday,URGENT
+V0502,2025-07-31,22,F,Maternity,Antenatal check,36.7,80.3,1.6,48,9.5,Treated,31.4,7,Thursday,Normal
+V0503,2025-07-31,36,F,Maternity,Malaria,38.3,62.5,1.53,48,7.5,Treated,26.7,7,Thursday,Fever
+V0504,2025-08-01,53,F,Outpatients,Malaria,38.2,70.3,1.67,40,10.0,Treated,25.2,8,Friday,Fever
+V0505,2025-08-01,47,M,Outpatients,Malaria,39.3,84.5,1.74,35,8.0,Treated,27.9,8,Friday,URGENT
+V0506,2025-08-02,10,M,Paediatrics,Malaria,39.3,31.0,1.15,25,6.0,Treated,23.4,8,Saturday,URGENT
+V0507,2025-08-02,14,M,Paediatrics,Malaria,38.5,42.0,1.43,19,5.5,Admitted,20.5,8,Saturday,Fever
+V0508,2025-08-02,9,F,Paediatrics,Respiratory infection,38.7,27.9,1.12,34,7.5,Admitted,22.2,8,Saturday,Fever
+V0509,2025-08-04,19,F,Maternity,Antenatal check,37.1,47.2,1.66,106,9.5,Treated,17.1,8,Monday,Normal
+V0510,2025-08-04,61,M,Outpatients,Malaria,39.3,66.6,1.71,84,6.0,Treated,22.8,8,Monday,URGENT
+V0511,2025-08-04,24,F,Maternity,Malaria,38.6,54.3,1.43,64,11.0,Treated,26.6,8,Monday,Fever
+V0512,2025-08-04,48,F,Emergency,Malaria,39.0,49.9,1.54,11,17.5,Treated,21.0,8,Monday,URGENT
+V0513,2025-08-05,68,M,Outpatients,Diabetes,36.9,73.5,1.67,37,7.5,Treated,26.4,8,Tuesday,Normal
+V0514,2025-08-05,35,F,Outpatients,Malaria,38.7,66.3,1.52,45,9.0,Treated,28.7,8,Tuesday,Fever
+V0515,2025-08-05,50,M,Outpatients,Diarrhoea,37.8,59.0,1.6,36,8.5,Treated,23.0,8,Tuesday,Fever
+V0516,2025-08-06,62,F,Outpatients,Diarrhoea,37.9,79.9,1.58,69,6.0,Treated,32.0,8,Wednesday,Fever
+V0517,2025-08-06,64,M,Outpatients,Malaria,38.7,75.3,1.71,48,7.5,Treated,25.8,8,Wednesday,Fever
+V0518,2025-08-06,55,F,Emergency,Malaria,38.8,80.6,1.65,10,19.5,Treated,29.6,8,Wednesday,Fever
+V0519,2025-08-09,1,M,Paediatrics,Diarrhoea,37.7,9.3,0.62,32,7.0,Treated,24.2,8,Saturday,Fever
+V0520,2025-08-09,3,F,Paediatrics,Immunisation,36.8,15.5,0.76,26,0.0,Treated,26.8,8,Saturday,Normal
+V0521,2025-08-09,71,M,Outpatients,Hypertension,36.9,101.5,1.76,48,6.0,Treated,32.8,8,Saturday,Normal
+V0522,2025-08-11,31,F,Maternity,Antenatal check,37.0,58.4,1.57,48,11.5,Treated,23.7,8,Monday,Normal
+V0523,2025-08-11,32,M,Outpatients,Malaria,38.3,49.4,1.7,54,8.0,Treated,17.1,8,Monday,Fever
+V0524,2025-08-11,9,F,Paediatrics,Malaria,38.8,26.8,1.12,68,3.0,Referred,21.4,8,Monday,Fever
+V0525,2025-08-11,25,F,Outpatients,Malaria,,80.8,1.66,49,6.0,Treated,29.3,8,Monday,Not recorded
+V0526,2025-08-11,5,M,Paediatrics,Respiratory infection,37.7,15.8,0.79,60,4.0,Treated,25.3,8,Monday,Fever
+V0527,2025-08-11,43,M,Outpatients,Hypertension,36.9,90.8,1.72,45,9.0,Treated,30.7,8,Monday,Normal
+V0528,2025-08-11,61,F,Outpatients,Malaria,39.1,63.8,1.55,73,9.5,Treated,26.6,8,Monday,URGENT
+V0529,2025-08-12,58,F,Outpatients,Diarrhoea,37.5,69.3,1.59,48,9.5,Treated,27.4,8,Tuesday,Fever
+V0530,2025-08-12,55,M,Outpatients,Respiratory infection,37.0,59.8,1.7,64,9.0,Referred,20.7,8,Tuesday,Normal
+V0531,2025-08-14,35,F,Maternity,Antenatal check,36.3,52.8,1.58,18,11.0,Treated,21.2,8,Thursday,Normal
+V0532,2025-08-14,12,F,Paediatrics,Immunisation,36.6,36.1,1.34,34,0.0,Treated,20.1,8,Thursday,Normal
+V0533,2025-08-14,37,F,Maternity,Antenatal check,36.9,69.8,1.52,35,8.0,Treated,30.2,8,Thursday,Normal
+V0534,2025-08-14,9,F,Paediatrics,Malaria,38.4,28.3,1.17,50,3.5,Treated,20.7,8,Thursday,Fever
+V0535,2025-08-15,69,F,Emergency,Malaria,38.3,63.3,1.69,12,19.5,Treated,22.2,8,Friday,Fever
+V0536,2025-08-16,56,M,Outpatients,Malaria,38.1,77.0,1.69,31,7.5,Admitted,27.0,8,Saturday,Fever
+V0537,2025-08-16,36,F,Maternity,Antenatal check,37.0,,1.71,22,10.0,Treated,,8,Saturday,Normal
+V0538,2025-08-18,13,F,Emergency,Malaria,38.7,39.7,1.39,6,18.5,Treated,20.5,8,Monday,Fever
+V0539,2025-08-18,28,F,Outpatients,Respiratory infection,37.5,71.3,1.51,73,9.0,Treated,31.3,8,Monday,Fever
+V0540,2025-08-18,80,F,Outpatients,Hypertension,36.8,87.8,1.67,130,10.5,Treated,31.5,8,Monday,Normal
+V0541,2025-08-20,15,M,Outpatients,Respiratory infection,38.3,85.6,1.83,67,7.5,Treated,25.6,8,Wednesday,Fever
+V0542,2025-08-20,52,F,Outpatients,Diarrhoea,37.2,56.4,1.64,21,9.0,Treated,21.0,8,Wednesday,Normal
+V0543,2025-08-21,12,F,Paediatrics,Respiratory infection,38.4,36.5,1.33,64,5.5,Treated,20.6,8,Thursday,Fever
+V0544,2025-08-21,57,F,Outpatients,Malaria,38.4,71.0,1.6,46,6.0,Admitted,27.7,8,Thursday,Fever
+V0545,2025-08-22,11,F,Paediatrics,Malaria,39.3,35.9,1.28,31,6.5,Treated,21.9,8,Friday,URGENT
+V0546,2025-08-22,70,F,Outpatients,Malaria,39.0,65.4,1.71,48,8.5,Treated,22.4,8,Friday,URGENT
+V0547,2025-08-23,38,M,Outpatients,Malaria,38.7,70.8,1.66,43,7.0,Referred,25.7,8,Saturday,Fever
+V0548,2025-08-23,21,F,Maternity,Antenatal check,36.8,67.4,1.64,43,11.0,Treated,25.1,8,Saturday,Normal
+V0549,2025-08-23,23,F,Maternity,Antenatal check,36.9,70.8,1.6,41,10.0,Treated,27.7,8,Saturday,Normal
+V0550,2025-08-23,11,M,Paediatrics,Diarrhoea,37.7,34.2,1.29,48,6.0,Treated,20.6,8,Saturday,Fever
+V0551,2025-08-25,61,F,Outpatients,Hypertension,37.0,79.6,1.71,59,7.5,Treated,27.2,8,Monday,Normal
+V0552,2025-08-25,17,F,Outpatients,Respiratory infection,38.0,83.2,1.61,103,8.0,Treated,32.1,8,Monday,Fever
+V0553,2025-08-25,35,M,Outpatients,Malaria,39.1,79.2,1.73,82,9.0,Referred,26.5,8,Monday,URGENT
+V0554,2025-08-25,9,M,Paediatrics,Diarrhoea,,25.4,1.19,76,7.0,Referred,17.9,8,Monday,Not recorded
+V0555,2025-08-26,19,M,Emergency,Malaria,37.9,65.6,1.56,12,21.0,Treated,27.0,8,Tuesday,Fever
+V0556,2025-08-26,8,F,Paediatrics,Immunisation,36.9,24.1,1.08,69,0.0,Treated,20.7,8,Tuesday,Normal
+V0557,2025-08-27,41,M,Emergency,Injury,37.0,90.6,1.8,16,18.5,Treated,28.0,8,Wednesday,Normal
+V0558,2025-08-27,57,M,Emergency,Injury,36.6,,1.76,9,21.0,Admitted,,8,Wednesday,Normal
+V0559,2025-08-28,78,F,Outpatients,Diabetes,37.1,92.3,1.62,93,9.0,Treated,35.2,8,Thursday,Normal
+V0560,2025-08-29,61,F,Outpatients,Malaria,38.7,,1.58,55,7.5,Treated,,8,Friday,Fever
+V0561,2025-08-29,13,F,Emergency,Malaria,38.8,40.3,1.41,13,18.5,Treated,20.3,8,Friday,Fever
+V0562,2025-08-30,13,M,Paediatrics,Malaria,38.9,37.8,1.44,39,7.5,Admitted,18.2,8,Saturday,Fever
+V0563,2025-08-30,30,F,Outpatients,Malaria,38.8,,1.6,60,10.5,Referred,,8,Saturday,Fever
+V0564,2025-08-30,9,F,Paediatrics,Malaria,39.1,27.1,1.09,49,4.5,Referred,22.8,8,Saturday,URGENT
+V0565,2025-09-01,48,M,Outpatients,Hypertension,36.7,105.9,1.7,87,8.0,Admitted,36.6,9,Monday,Normal
+V0566,2025-09-01,46,F,Outpatients,Hypertension,36.7,81.3,1.74,83,9.0,Treated,26.9,9,Monday,Normal
+V0567,2025-09-01,55,F,Outpatients,Malaria,39.2,82.4,1.69,85,10.0,Treated,28.9,9,Monday,URGENT
+V0568,2025-09-01,14,M,Paediatrics,Diarrhoea,38.1,45.1,1.48,55,5.0,Treated,20.6,9,Monday,Fever
+V0569,2025-09-01,23,M,Emergency,Injury,36.7,77.8,1.74,10,22.0,Referred,25.7,9,Monday,Normal
+V0570,2025-09-02,4,M,Paediatrics,Malaria,38.6,14.8,0.74,21,5.0,Treated,27.0,9,Tuesday,Fever
+V0571,2025-09-02,61,F,Outpatients,Hypertension,36.8,87.2,1.63,37,7.0,Admitted,32.8,9,Tuesday,Normal
+V0572,2025-09-02,25,F,Maternity,Antenatal check,37.2,55.6,1.62,34,12.5,Treated,21.2,9,Tuesday,Normal
+V0573,2025-09-02,37,F,Maternity,Antenatal check,36.8,79.3,1.64,39,9.0,Treated,29.5,9,Tuesday,Normal
+V0574,2025-09-03,37,F,Maternity,Antenatal check,36.8,58.9,1.7,29,9.5,Treated,20.4,9,Wednesday,Normal
+V0575,2025-09-04,32,F,Maternity,Antenatal check,36.6,69.0,1.55,28,7.5,Treated,28.7,9,Thursday,Normal
+V0576,2025-09-05,59,F,Outpatients,Hypertension,36.7,75.7,1.58,18,10.5,Referred,30.3,9,Friday,Normal
+V0577,2025-09-05,15,F,Outpatients,Malaria,38.8,60.5,1.6,54,4.0,Treated,23.6,9,Friday,Fever
+V0578,2025-09-05,31,F,Maternity,Antenatal check,36.9,62.3,1.71,27,12.5,Treated,21.3,9,Friday,Normal
+V0579,2025-09-05,27,F,Maternity,Antenatal check,37.0,79.9,1.69,33,8.5,Treated,28.0,9,Friday,Normal
+V0580,2025-09-05,75,M,Outpatients,Hypertension,36.7,101.7,1.7,34,7.0,Treated,35.2,9,Friday,Normal
+V0581,2025-09-08,45,M,Outpatients,Respiratory infection,38.3,85.9,1.78,86,8.5,Treated,27.1,9,Monday,Fever
+V0582,2025-09-08,10,F,Paediatrics,Respiratory infection,38.6,32.8,1.23,55,5.5,Treated,21.7,9,Monday,Fever
+V0583,2025-09-10,59,F,Outpatients,Hypertension,36.9,71.5,1.56,44,9.5,Treated,29.4,9,Wednesday,Normal
+V0584,2025-09-11,42,F,Maternity,Antenatal check,36.4,53.1,1.72,43,10.0,Treated,17.9,9,Thursday,Normal
+V0585,2025-09-12,56,M,Outpatients,Malaria,38.2,73.6,1.74,80,9.5,Treated,24.3,9,Friday,Fever
+V0586,2025-09-13,8,M,Paediatrics,Malaria,37.7,25.9,1.08,32,5.5,Treated,22.2,9,Saturday,Fever
+V0587,2025-09-13,14,F,Paediatrics,Respiratory infection,38.4,43.5,1.47,38,6.0,Treated,20.1,9,Saturday,Fever
+V0588,2025-09-13,67,F,Outpatients,Malaria,38.0,80.6,1.69,60,9.0,Treated,28.2,9,Saturday,Fever
+V0589,2025-09-15,8,F,Paediatrics,Diarrhoea,38.2,26.2,1.04,37,3.5,Treated,24.2,9,Monday,Fever
+V0590,2025-09-15,64,F,Emergency,Injury,36.8,69.4,1.65,8,18.5,Treated,25.5,9,Monday,Normal
+V0591,2025-09-15,49,F,Outpatients,Malaria,38.3,58.5,1.66,70,9.0,Treated,21.2,9,Monday,Fever
+V0592,2025-09-15,28,F,Maternity,Antenatal check,37.1,60.0,1.62,50,7.0,Referred,22.9,9,Monday,Normal
+V0593,2025-09-16,39,F,Outpatients,Respiratory infection,37.6,67.5,1.65,61,6.0,Referred,24.8,9,Tuesday,Fever
+V0594,2025-09-16,51,M,Outpatients,Diarrhoea,37.7,58.7,1.68,47,7.0,Treated,20.8,9,Tuesday,Fever
+V0595,2025-09-16,59,M,Outpatients,Malaria,38.4,70.1,1.8,43,7.0,Referred,21.6,9,Tuesday,Fever
+V0596,2025-09-16,12,M,Paediatrics,Diarrhoea,37.1,38.0,1.34,18,5.5,Treated,21.2,9,Tuesday,Normal
+V0597,2025-09-16,55,M,Outpatients,Hypertension,36.8,90.0,1.66,65,6.0,Treated,32.7,9,Tuesday,Normal
+V0598,2025-09-17,39,F,Emergency,Injury,37.2,58.3,1.54,13,19.0,Treated,24.6,9,Wednesday,Normal
+V0599,2025-09-17,40,F,Outpatients,Hypertension,37.0,65.7,1.58,35,12.5,Treated,26.3,9,Wednesday,Normal
+V0600,2025-09-17,41,F,Maternity,Antenatal check,36.8,83.5,1.63,29,8.5,Treated,31.4,9,Wednesday,Normal
+V0601,2025-09-20,29,M,Outpatients,Malaria,38.8,67.9,1.67,48,10.5,Treated,24.3,9,Saturday,Fever
+V0602,2025-09-20,63,M,Outpatients,Respiratory infection,37.7,99.4,1.73,35,9.0,Treated,33.2,9,Saturday,Fever
+V0603,2025-09-20,37,M,Emergency,Injury,36.6,76.7,1.84,9,18.5,Referred,22.7,9,Saturday,Normal
+V0604,2025-09-20,60,F,Outpatients,Diabetes,36.4,85.4,1.53,66,8.0,Admitted,36.5,9,Saturday,Normal
+V0605,2025-09-22,20,M,Emergency,Injury,37.2,83.7,1.8,19,20.5,Treated,25.8,9,Monday,Normal
+V0606,2025-09-22,36,M,Outpatients,Respiratory infection,38.2,61.3,1.7,72,7.5,Treated,21.2,9,Monday,Fever
+V0607,2025-09-22,48,M,Outpatients,Hypertension,37.0,86.6,1.61,76,8.0,Treated,33.4,9,Monday,Normal
+V0608,2025-09-23,25,M,Emergency,Malaria,38.2,99.1,1.75,11,17.5,Treated,32.4,9,Tuesday,Fever
+V0609,2025-09-23,7,M,Paediatrics,Immunisation,37.0,23.7,1.0,42,0.0,Treated,23.7,9,Tuesday,Normal
+V0610,2025-09-23,9,F,Paediatrics,Immunisation,36.6,25.7,1.15,28,0.0,Treated,19.4,9,Tuesday,Normal
+V0611,2025-09-23,41,F,Maternity,Antenatal check,36.5,48.1,1.55,17,8.5,Treated,20.0,9,Tuesday,Normal
+V0612,2025-09-23,48,M,Emergency,Injury,37.1,58.6,1.72,15,19.0,Treated,19.8,9,Tuesday,Normal
+V0613,2025-09-24,25,F,Maternity,Antenatal check,36.7,63.8,1.59,20,11.0,Treated,25.2,9,Wednesday,Normal
+V0614,2025-09-24,0,M,Paediatrics,Malaria,38.8,2.3,0.51,52,3.5,Treated,8.8,9,Wednesday,Fever
+V0615,2025-09-24,58,M,Outpatients,Diabetes,36.4,76.4,1.67,28,12.5,Treated,27.4,9,Wednesday,Normal
+V0616,2025-09-25,50,F,Outpatients,Malaria,38.2,79.5,1.67,40,6.0,Treated,28.5,9,Thursday,Fever
+V0617,2025-09-25,27,F,Maternity,Antenatal check,36.7,59.2,1.56,34,12.5,Treated,24.3,9,Thursday,Normal
+V0618,2025-09-25,19,F,Outpatients,Respiratory infection,37.6,69.2,1.76,36,8.0,Treated,22.3,9,Thursday,Fever
+V0619,2025-09-27,31,F,Maternity,Antenatal check,36.7,82.3,1.7,23,8.5,Treated,28.5,9,Saturday,Normal
+V0620,2025-09-27,8,F,Emergency,Respiratory infection,37.6,24.7,1.05,10,21.5,Admitted,22.4,9,Saturday,Fever
+V0621,2025-09-27,54,M,Emergency,Injury,36.3,60.8,1.81,10,21.0,Admitted,18.6,9,Saturday,Normal
+V0622,2025-09-27,42,F,Outpatients,Respiratory infection,38.0,46.1,1.53,47,8.5,Treated,19.7,9,Saturday,Fever
+V0623,2025-09-29,26,F,Maternity,Antenatal check,36.7,55.9,1.62,36,8.0,Treated,21.3,9,Monday,Normal
+V0624,2025-09-29,26,F,Maternity,Antenatal check,36.9,67.3,1.61,80,9.0,Treated,26.0,9,Monday,Normal
+V0625,2025-09-29,68,F,Outpatients,Malaria,38.4,75.6,1.63,76,8.5,Treated,28.5,9,Monday,Fever
+V0626,2025-09-29,13,M,Paediatrics,Immunisation,36.8,40.8,1.41,46,0.0,Referred,20.5,9,Monday,Normal
+V0627,2025-09-30,67,F,Outpatients,Diarrhoea,37.7,82.1,1.7,48,5.0,Treated,28.4,9,Tuesday,Fever
+V0628,2025-09-30,26,M,Outpatients,Respiratory infection,38.2,61.7,1.71,31,9.0,Treated,21.1,9,Tuesday,Fever
+V0629,2025-09-30,44,M,Outpatients,Hypertension,36.9,88.3,1.69,59,7.5,Treated,30.9,9,Tuesday,Normal
+V0630,2025-09-30,78,F,Outpatients,Hypertension,37.1,79.2,1.53,62,9.0,Treated,33.8,9,Tuesday,Normal
+V0631,2025-10-01,39,F,Maternity,Antenatal check,36.8,56.6,1.69,37,9.5,Treated,19.8,10,Wednesday,Normal
+V0632,2025-10-02,70,F,Emergency,Respiratory infection,38.1,70.5,1.68,7,21.0,Treated,25.0,10,Thursday,Fever
+V0633,2025-10-02,20,F,Maternity,Antenatal check,36.7,55.1,1.56,53,11.0,Treated,22.6,10,Thursday,Normal
+V0634,2025-10-02,62,F,Emergency,Injury,36.3,71.4,1.61,6,20.5,Treated,27.5,10,Thursday,Normal
+V0635,2025-10-03,47,M,Outpatients,Diarrhoea,37.3,63.7,1.68,68,8.5,Treated,22.6,10,Friday,Normal
+V0636,2025-10-03,64,M,Emergency,Respiratory infection,37.8,65.6,1.63,11,23.0,Treated,24.7,10,Friday,Fever
+V0637,2025-10-03,63,M,Emergency,Malaria,38.1,81.8,1.78,4,17.0,Treated,25.8,10,Friday,Fever
+V0638,2025-10-03,18,F,Maternity,Antenatal check,37.1,65.3,1.64,39,9.0,Admitted,24.3,10,Friday,Normal
+V0639,2025-10-04,27,F,Maternity,Antenatal check,36.9,62.8,1.66,28,8.5,Treated,22.8,10,Saturday,Normal
+V0640,2025-10-04,40,F,Outpatients,Respiratory infection,37.4,78.1,1.7,50,6.5,Treated,27.0,10,Saturday,Normal
+V0641,2025-10-04,53,M,Outpatients,Diabetes,37.1,79.4,1.58,69,7.5,Treated,31.8,10,Saturday,Normal
+V0642,2025-10-04,18,F,Emergency,Injury,36.7,59.2,1.68,6,20.5,Treated,21.0,10,Saturday,Normal
+V0643,2025-10-06,73,M,Outpatients,Diabetes,36.8,71.4,1.52,32,7.0,Treated,30.9,10,Monday,Normal
+V0644,2025-10-07,4,M,Paediatrics,Immunisation,36.6,15.2,0.81,52,0.0,Treated,23.2,10,Tuesday,Normal
+V0645,2025-10-07,25,M,Outpatients,Malaria,38.8,71.0,1.81,56,7.5,Treated,21.7,10,Tuesday,Fever
+V0646,2025-10-07,60,F,Outpatients,Respiratory infection,38.1,73.9,1.64,51,5.5,Treated,27.5,10,Tuesday,Fever
+V0647,2025-10-07,20,M,Outpatients,Malaria,38.6,91.9,1.78,36,8.0,Treated,29.0,10,Tuesday,Fever
+V0648,2025-10-07,12,F,Paediatrics,Respiratory infection,38.1,34.8,1.36,46,7.0,Referred,18.8,10,Tuesday,Fever
+V0649,2025-10-07,45,F,Outpatients,Diabetes,36.5,78.6,1.48,30,5.5,Treated,35.9,10,Tuesday,Normal
+V0650,2025-10-07,77,F,Outpatients,Hypertension,37.3,60.3,1.66,60,9.5,Treated,21.9,10,Tuesday,Normal
+V0651,2025-10-07,55,F,Outpatients,Hypertension,36.7,70.3,1.59,76,7.5,Treated,27.8,10,Tuesday,Normal
+V0652,2025-10-08,16,F,Outpatients,Malaria,39.3,78.4,1.62,24,12.0,Treated,29.9,10,Wednesday,URGENT
+V0653,2025-10-08,36,F,Emergency,Injury,36.5,80.2,1.66,9,19.0,Treated,29.1,10,Wednesday,Normal
+V0654,2025-10-08,35,F,Maternity,Antenatal check,37.2,83.4,1.64,28,8.5,Referred,31.0,10,Wednesday,Normal
+V0655,2025-10-08,31,F,Maternity,Malaria,37.9,61.5,1.62,31,8.5,Treated,23.4,10,Wednesday,Fever
+V0656,2025-10-09,50,F,Emergency,Injury,36.4,86.1,1.73,8,17.5,Treated,28.8,10,Thursday,Normal
+V0657,2025-10-09,50,F,Outpatients,Hypertension,37.1,80.6,1.59,50,7.5,Treated,31.9,10,Thursday,Normal
+V0658,2025-10-09,5,F,Paediatrics,Respiratory infection,37.0,16.6,0.88,30,3.0,Treated,21.4,10,Thursday,Normal
+V0659,2025-10-09,50,M,Outpatients,Respiratory infection,37.8,75.7,1.72,65,8.5,Admitted,25.6,10,Thursday,Fever
+V0660,2025-10-09,51,M,Outpatients,Respiratory infection,38.1,82.3,1.72,43,9.0,Treated,27.8,10,Thursday,Fever
+V0661,2025-10-10,69,M,Emergency,Malaria,,77.3,1.61,6,20.0,Admitted,29.8,10,Friday,Not recorded
+V0662,2025-10-10,46,M,Outpatients,Malaria,39.1,65.5,1.64,78,7.5,Treated,24.4,10,Friday,URGENT
+V0663,2025-10-11,74,M,Outpatients,Diabetes,36.5,109.8,1.79,33,8.0,Treated,34.3,10,Saturday,Normal
+V0664,2025-10-11,5,F,Paediatrics,Respiratory infection,37.4,16.4,0.85,38,4.0,Treated,22.7,10,Saturday,Normal
+V0665,2025-10-11,43,M,Emergency,Injury,36.9,65.1,1.65,9,17.5,Treated,23.9,10,Saturday,Normal
+V0666,2025-10-11,22,M,Outpatients,Respiratory infection,37.9,89.5,1.78,57,8.0,Referred,28.2,10,Saturday,Fever
+V0667,2025-10-13,68,M,Emergency,Injury,36.7,102.8,1.82,10,19.0,Treated,31.0,10,Monday,Normal
+V0668,2025-10-13,7,M,Paediatrics,Respiratory infection,37.5,22.8,0.98,38,2.0,Referred,23.7,10,Monday,Fever
+V0669,2025-10-13,61,M,Emergency,Injury,36.4,85.1,1.76,15,21.0,Treated,27.5,10,Monday,Normal
+V0670,2025-10-13,0,F,Paediatrics,Immunisation,36.8,2.8,0.51,43,0.0,Treated,10.8,10,Monday,Normal
+V0671,2025-10-13,40,M,Emergency,Malaria,38.3,74.1,1.75,17,20.0,Treated,24.2,10,Monday,Fever
+V0672,2025-10-14,68,M,Outpatients,Hypertension,37.0,107.4,1.75,27,7.5,Treated,35.1,10,Tuesday,Normal
+V0673,2025-10-14,43,F,Outpatients,Hypertension,36.4,92.9,1.71,28,8.5,Treated,31.8,10,Tuesday,Normal
+V0674,2025-10-15,24,F,Maternity,Antenatal check,37.2,62.2,1.6,28,8.5,Treated,24.3,10,Wednesday,Normal
+V0675,2025-10-15,29,F,Emergency,Injury,36.6,69.5,1.59,7,21.5,Admitted,27.5,10,Wednesday,Normal
+V0676,2025-10-16,11,F,Paediatrics,Immunisation,36.8,36.5,1.22,55,0.0,Treated,24.5,10,Thursday,Normal
+V0677,2025-10-16,6,M,Paediatrics,Respiratory infection,38.4,22.9,0.93,31,2.0,Referred,26.5,10,Thursday,Fever
+V0678,2025-10-16,50,M,Emergency,Malaria,39.1,69.7,1.81,7,20.5,Treated,21.3,10,Thursday,URGENT
+V0679,2025-10-17,41,M,Outpatients,Diabetes,37.0,84.8,1.73,37,8.5,Treated,28.3,10,Friday,Normal
+V0680,2025-10-17,34,F,Outpatients,Respiratory infection,38.4,,1.64,60,9.0,Treated,,10,Friday,Fever
+V0681,2025-10-20,50,M,Outpatients,Diabetes,37.0,94.3,1.76,31,8.5,Referred,30.4,10,Monday,Normal
+V0682,2025-10-20,73,F,Emergency,Malaria,39.1,66.1,1.68,14,17.0,Treated,23.4,10,Monday,URGENT
+V0683,2025-10-20,26,F,Maternity,Antenatal check,37.1,69.4,1.54,58,9.0,Treated,29.3,10,Monday,Normal
+V0684,2025-10-20,69,F,Outpatients,Respiratory infection,38.3,55.5,1.53,59,7.0,Admitted,23.7,10,Monday,Fever
+V0685,2025-10-21,35,F,Maternity,Antenatal check,36.8,50.9,1.55,25,8.0,Treated,21.2,10,Tuesday,Normal
+V0686,2025-10-22,28,F,Maternity,Antenatal check,36.9,71.2,1.66,28,10.5,Referred,25.8,10,Wednesday,Normal
+V0687,2025-10-22,31,F,Maternity,Antenatal check,36.8,67.1,1.65,25,9.0,Treated,24.6,10,Wednesday,Normal
+V0688,2025-10-22,19,F,Maternity,Antenatal check,36.9,58.8,1.53,28,9.0,Treated,25.1,10,Wednesday,Normal
+V0689,2025-10-23,14,M,Paediatrics,Respiratory infection,37.7,41.7,1.53,41,3.5,Treated,17.8,10,Thursday,Fever
+V0690,2025-10-23,41,F,Outpatients,Malaria,38.0,56.0,1.48,63,10.5,Admitted,25.6,10,Thursday,Fever
+V0691,2025-10-24,38,F,Outpatients,Hypertension,36.5,78.0,1.6,56,9.0,Treated,30.5,10,Friday,Normal
+V0692,2025-10-24,55,F,Outpatients,Diarrhoea,37.5,64.9,1.62,60,8.0,Treated,24.7,10,Friday,Fever
+V0693,2025-10-24,35,M,Outpatients,Malaria,39.0,63.4,1.75,58,9.0,Treated,20.7,10,Friday,URGENT
+V0694,2025-10-25,66,F,Outpatients,Hypertension,36.5,79.2,1.6,42,9.0,Treated,30.9,10,Saturday,Normal
+V0695,2025-10-25,63,M,Outpatients,Respiratory infection,38.9,67.8,1.52,40,10.0,Treated,29.3,10,Saturday,Fever
+V0696,2025-10-25,66,M,Outpatients,Hypertension,36.8,98.3,1.69,78,11.5,Treated,34.4,10,Saturday,Normal
+V0697,2025-10-27,43,M,Outpatients,Respiratory infection,38.7,51.7,1.66,72,7.0,Treated,18.8,10,Monday,Fever
+V0698,2025-10-29,45,F,Outpatients,Respiratory infection,38.3,74.9,1.66,44,8.5,Treated,27.2,10,Wednesday,Fever
+V0699,2025-10-29,57,M,Outpatients,Respiratory infection,38.6,76.5,1.73,37,9.0,Treated,25.6,10,Wednesday,Fever
+V0700,2025-10-29,77,F,Outpatients,Hypertension,36.5,,1.59,48,8.5,Treated,,10,Wednesday,Normal
+V0701,2025-10-29,1,M,Paediatrics,Respiratory infection,37.1,6.2,0.61,43,7.0,Referred,16.7,10,Wednesday,Normal
+V0702,2025-10-30,3,F,Paediatrics,Respiratory infection,38.4,11.0,0.75,34,2.0,Treated,19.6,10,Thursday,Fever
+V0703,2025-10-31,25,F,Maternity,Antenatal check,36.9,60.3,1.55,30,9.0,Referred,25.1,10,Friday,Normal
+V0704,2025-10-31,56,M,Outpatients,Hypertension,36.8,86.9,1.77,53,9.0,Referred,27.7,10,Friday,Normal
+V0705,2025-10-31,37,F,Maternity,Antenatal check,36.7,71.8,1.63,44,9.0,Treated,27.0,10,Friday,Normal
+V0706,2025-10-31,58,M,Outpatients,Hypertension,36.4,75.4,1.68,69,8.5,Treated,26.7,10,Friday,Normal
+V0707,2025-10-31,65,F,Emergency,Injury,36.8,60.3,1.62,11,19.0,Treated,23.0,10,Friday,Normal
+V0708,2025-11-01,60,F,Emergency,Injury,36.5,69.2,1.62,10,22.5,Admitted,26.4,11,Saturday,Normal
+V0709,2025-11-01,49,M,Emergency,Injury,37.0,73.9,1.7,9,20.0,Treated,25.6,11,Saturday,Normal
+V0710,2025-11-01,3,F,Paediatrics,Immunisation,37.0,10.5,0.7,31,0.0,Treated,21.4,11,Saturday,Normal
+V0711,2025-11-03,13,F,Paediatrics,Malaria,,38.1,1.45,79,4.5,Referred,18.1,11,Monday,Not recorded
+V0712,2025-11-03,68,F,Outpatients,Hypertension,36.4,79.9,1.66,50,8.5,Referred,29.0,11,Monday,Normal
+V0713,2025-11-03,11,M,Paediatrics,Respiratory infection,36.7,35.7,1.33,47,6.0,Treated,20.2,11,Monday,Normal
+V0714,2025-11-03,55,M,Outpatients,Malaria,39.3,86.7,1.72,79,8.5,Treated,29.3,11,Monday,URGENT
+V0715,2025-11-04,9,M,Paediatrics,Immunisation,36.7,25.5,1.1,52,0.0,Treated,21.1,11,Tuesday,Normal
+V0716,2025-11-04,25,F,Emergency,Injury,36.8,66.7,1.57,11,22.0,Treated,27.1,11,Tuesday,Normal
+V0717,2025-11-04,8,M,Paediatrics,Diarrhoea,,23.3,1.09,31,5.0,Treated,19.6,11,Tuesday,Not recorded
+V0718,2025-11-04,23,M,Emergency,Injury,37.2,67.1,1.81,10,20.0,Referred,20.5,11,Tuesday,Normal
+V0719,2025-11-04,1,F,Paediatrics,Diarrhoea,,6.3,0.59,16,6.0,Referred,18.1,11,Tuesday,Not recorded
+V0720,2025-11-05,11,M,Paediatrics,Diarrhoea,37.2,34.3,1.3,21,2.5,Treated,20.3,11,Wednesday,Normal
+V0721,2025-11-07,9,M,Paediatrics,Immunisation,,26.8,1.11,23,0.0,Treated,21.8,11,Friday,Not recorded
+V0722,2025-11-07,18,F,Maternity,Antenatal check,37.1,48.6,1.54,34,9.0,Treated,20.5,11,Friday,Normal
+V0723,2025-11-07,36,F,Maternity,Antenatal check,36.3,59.1,1.6,21,9.5,Treated,23.1,11,Friday,Normal
+V0724,2025-11-08,50,F,Outpatients,Diabetes,36.5,81.9,1.56,60,9.0,Treated,33.7,11,Saturday,Normal
+V0725,2025-11-08,47,M,Outpatients,Respiratory infection,37.7,76.5,1.78,75,5.5,Treated,24.1,11,Saturday,Fever
+V0726,2025-11-08,53,M,Outpatients,Diabetes,36.8,77.1,1.79,62,6.5,Treated,24.1,11,Saturday,Normal
+V0727,2025-11-10,39,M,Outpatients,Diabetes,37.1,71.7,1.72,57,9.0,Treated,24.2,11,Monday,Normal
+V0728,2025-11-10,29,F,Outpatients,Malaria,39.1,88.5,1.69,48,6.0,Treated,31.0,11,Monday,URGENT
+V0729,2025-11-10,55,F,Outpatients,Hypertension,36.9,67.3,1.54,84,8.0,Treated,28.4,11,Monday,Normal
+V0730,2025-11-11,39,M,Outpatients,Hypertension,36.5,88.8,1.84,31,11.0,Treated,26.2,11,Tuesday,Normal
+V0731,2025-11-12,11,M,Paediatrics,Diarrhoea,37.6,32.0,1.27,66,5.0,Treated,19.8,11,Wednesday,Fever
+V0732,2025-11-12,35,F,Outpatients,Respiratory infection,38.0,69.3,1.65,46,8.5,Treated,25.5,11,Wednesday,Fever
+V0733,2025-11-12,4,M,Paediatrics,Immunisation,36.5,14.8,0.82,20,0.0,Admitted,22.0,11,Wednesday,Normal
+V0734,2025-11-13,21,F,Maternity,Antenatal check,37.0,69.5,1.67,39,13.0,Treated,24.9,11,Thursday,Normal
+V0735,2025-11-13,36,M,Emergency,Injury,36.5,72.9,1.68,10,18.0,Treated,25.8,11,Thursday,Normal
+V0736,2025-11-14,46,F,Outpatients,Diabetes,,76.2,1.55,53,7.0,Treated,31.7,11,Friday,Not recorded
+V0737,2025-11-14,4,F,Paediatrics,Respiratory infection,37.7,15.0,0.85,39,5.5,Treated,20.8,11,Friday,Fever
+V0738,2025-11-14,19,F,Maternity,Malaria,39.3,70.4,1.77,44,9.0,Referred,22.5,11,Friday,URGENT
+V0739,2025-11-15,43,F,Emergency,Injury,36.9,37.5,1.47,6,20.0,Treated,17.4,11,Saturday,Normal
+V0740,2025-11-17,9,M,Paediatrics,Respiratory infection,38.0,28.0,1.17,37,4.0,Referred,20.5,11,Monday,Fever
+V0741,2025-11-18,27,F,Maternity,Antenatal check,37.1,63.5,1.62,50,11.0,Treated,24.2,11,Tuesday,Normal
+V0742,2025-11-18,46,M,Outpatients,Malaria,38.3,71.8,1.64,63,8.5,Admitted,26.7,11,Tuesday,Fever
+V0743,2025-11-18,51,M,Outpatients,Hypertension,36.7,70.6,1.71,20,9.0,Treated,24.1,11,Tuesday,Normal
+V0744,2025-11-19,42,F,Maternity,Antenatal check,36.4,67.5,1.7,25,9.0,Admitted,23.4,11,Wednesday,Normal
+V0745,2025-11-19,53,F,Emergency,Injury,36.9,49.2,1.61,10,19.5,Treated,19.0,11,Wednesday,Normal
+V0746,2025-11-19,4,M,Paediatrics,Respiratory infection,37.7,11.2,0.81,79,4.0,Treated,17.1,11,Wednesday,Fever
+V0747,2025-11-20,30,F,Outpatients,Respiratory infection,37.2,75.2,1.71,67,10.0,Admitted,25.7,11,Thursday,Normal
+V0748,2025-11-20,6,F,Paediatrics,Respiratory infection,37.4,19.7,0.92,96,5.0,Treated,23.3,11,Thursday,Normal
+V0749,2025-11-21,51,F,Outpatients,Diabetes,37.0,76.0,1.59,52,8.0,Treated,30.1,11,Friday,Normal
+V0750,2025-11-21,29,M,Emergency,Injury,37.0,57.8,1.78,10,18.0,Treated,18.2,11,Friday,Normal
+V0751,2025-11-22,28,F,Maternity,Antenatal check,37.6,58.7,1.57,34,8.0,Treated,23.8,11,Saturday,Fever
+V0752,2025-11-22,31,M,Outpatients,Diarrhoea,37.6,75.8,1.78,57,6.0,Treated,23.9,11,Saturday,Fever
+V0753,2025-11-22,75,M,Outpatients,Hypertension,37.0,76.0,1.7,75,6.0,Treated,26.3,11,Saturday,Normal
+V0754,2025-11-22,68,M,Outpatients,Diabetes,37.3,65.0,1.69,46,8.0,Treated,22.8,11,Saturday,Normal
+V0755,2025-11-24,71,F,Emergency,Injury,36.7,64.3,1.58,8,20.5,Referred,25.8,11,Monday,Normal
+V0756,2025-11-25,7,M,Paediatrics,Diarrhoea,37.8,23.4,1.0,25,4.5,Treated,23.4,11,Tuesday,Fever
+V0757,2025-11-26,43,M,Outpatients,Diabetes,37.3,134.9,1.83,84,8.5,Treated,40.3,11,Wednesday,Normal
+V0758,2025-11-26,2,F,Paediatrics,Immunisation,36.6,10.7,0.67,40,0.0,Treated,23.8,11,Wednesday,Normal
+V0759,2025-11-26,21,F,Maternity,Antenatal check,36.5,63.1,1.52,38,10.0,Treated,27.3,11,Wednesday,Normal
+V0760,2025-11-26,12,F,Paediatrics,Immunisation,36.5,37.5,1.29,19,0.0,Treated,22.5,11,Wednesday,Normal
+V0761,2025-11-26,35,M,Emergency,Injury,36.9,93.9,1.71,8,19.5,Treated,32.1,11,Wednesday,Normal
+V0762,2025-11-26,28,F,Maternity,Antenatal check,36.3,69.8,1.7,26,10.0,Admitted,24.2,11,Wednesday,Normal
+V0763,2025-11-27,63,M,Emergency,Injury,37.1,87.0,1.81,13,19.0,Treated,26.6,11,Thursday,Normal
+V0764,2025-11-27,66,F,Emergency,Respiratory infection,38.6,52.9,1.52,16,19.5,Treated,22.9,11,Thursday,Fever
+V0765,2025-11-28,13,F,Paediatrics,Diarrhoea,38.2,38.0,1.42,72,4.5,Referred,18.8,11,Friday,Fever
+V0766,2025-11-28,1,F,Paediatrics,Respiratory infection,37.2,8.1,0.58,36,5.5,Referred,24.1,11,Friday,Normal
+V0767,2025-11-28,19,F,Outpatients,Respiratory infection,37.8,44.3,1.59,15,7.0,Referred,17.5,11,Friday,Fever
+V0768,2025-11-29,26,F,Maternity,Antenatal check,36.8,76.1,1.67,41,10.5,Treated,27.3,11,Saturday,Normal
+V0769,2025-11-29,18,F,Maternity,Antenatal check,36.7,60.6,1.56,36,10.5,Treated,24.9,11,Saturday,Normal
+V0770,2025-11-29,56,F,Emergency,Injury,37.0,48.8,1.59,15,20.0,Treated,19.3,11,Saturday,Normal
+V0771,2025-11-29,68,F,Outpatients,Malaria,39.0,66.3,1.58,41,9.5,Admitted,26.6,11,Saturday,URGENT
+V0772,2025-11-29,51,F,Outpatients,Hypertension,36.4,55.7,1.69,85,5.0,Treated,19.5,11,Saturday,Normal
+V0773,2025-12-01,6,F,Emergency,Respiratory infection,38.0,20.0,0.96,9,21.0,Treated,21.7,12,Monday,Fever
+V0774,2025-12-01,50,M,Outpatients,Diabetes,,73.1,1.71,70,10.5,Treated,25.0,12,Monday,Not recorded
+V0775,2025-12-02,30,F,Maternity,Antenatal check,36.4,60.3,1.58,31,11.0,Treated,24.2,12,Tuesday,Normal
+V0776,2025-12-03,69,F,Emergency,Malaria,39.1,61.7,1.58,16,20.0,Treated,24.7,12,Wednesday,URGENT
+V0777,2025-12-04,7,M,Paediatrics,Diarrhoea,37.6,20.5,1.06,45,6.0,Treated,18.2,12,Thursday,Fever
+V0778,2025-12-04,48,F,Outpatients,Hypertension,36.6,113.6,1.7,23,11.5,Treated,39.3,12,Thursday,Normal
+V0779,2025-12-04,67,M,Outpatients,Respiratory infection,37.1,62.5,1.77,52,10.0,Treated,19.9,12,Thursday,Normal
+V0780,2025-12-05,23,F,Outpatients,Diarrhoea,36.5,34.8,1.51,50,7.5,Treated,15.3,12,Friday,Normal
+V0781,2025-12-06,25,F,Outpatients,Respiratory infection,37.9,80.2,1.65,29,6.0,Treated,29.5,12,Saturday,Fever
+V0782,2025-12-06,38,F,Maternity,Antenatal check,36.8,57.1,1.73,43,12.5,Treated,19.1,12,Saturday,Normal
+V0783,2025-12-06,27,M,Outpatients,Respiratory infection,37.5,73.3,1.79,44,8.5,Treated,22.9,12,Saturday,Fever
+V0784,2025-12-08,37,F,Outpatients,Diarrhoea,37.8,54.6,1.65,75,10.0,Treated,20.1,12,Monday,Fever
+V0785,2025-12-09,24,F,Maternity,Antenatal check,36.6,50.8,1.6,33,9.5,Treated,19.8,12,Tuesday,Normal
+V0786,2025-12-09,27,F,Maternity,Antenatal check,36.8,71.7,1.59,52,11.0,Treated,28.4,12,Tuesday,Normal
+V0787,2025-12-10,39,F,Outpatients,Hypertension,36.8,90.4,1.63,31,10.5,Treated,34.0,12,Wednesday,Normal
+V0788,2025-12-10,62,F,Outpatients,Malaria,37.9,68.8,1.65,64,4.0,Treated,25.3,12,Wednesday,Fever
+V0789,2025-12-10,4,F,Paediatrics,Respiratory infection,37.6,15.1,0.8,45,6.0,Treated,23.6,12,Wednesday,Fever
+V0790,2025-12-11,49,M,Outpatients,Respiratory infection,38.1,86.3,1.76,41,5.5,Treated,27.9,12,Thursday,Fever
+V0791,2025-12-11,57,M,Outpatients,Respiratory infection,38.3,66.7,1.71,38,8.0,Treated,22.8,12,Thursday,Fever
+V0792,2025-12-11,31,F,Emergency,Injury,36.6,53.7,1.49,10,20.5,Admitted,24.2,12,Thursday,Normal
+V0793,2025-12-12,6,M,Paediatrics,Diarrhoea,37.2,19.9,0.91,36,2.5,Treated,24.0,12,Friday,Normal
+V0794,2025-12-13,65,M,Emergency,Injury,36.4,66.8,1.79,9,19.0,Admitted,20.8,12,Saturday,Normal
+V0795,2025-12-13,58,M,Outpatients,Hypertension,37.2,66.6,1.75,21,8.0,Referred,21.7,12,Saturday,Normal
+V0796,2025-12-13,6,M,Paediatrics,Immunisation,36.7,18.5,0.93,16,0.0,Referred,21.4,12,Saturday,Normal
+V0797,2025-12-13,24,F,Maternity,Antenatal check,36.6,91.0,1.8,41,8.0,Referred,28.1,12,Saturday,Normal
+V0798,2025-12-15,44,F,Emergency,Injury,36.7,81.7,1.62,5,21.5,Treated,31.1,12,Monday,Normal
+V0799,2025-12-15,30,F,Maternity,Antenatal check,36.8,71.9,1.55,75,8.5,Treated,29.9,12,Monday,Normal
+V0800,2025-12-15,58,M,Outpatients,Diabetes,36.8,94.9,1.74,60,7.5,Treated,31.3,12,Monday,Normal
+V0801,2025-12-15,45,F,Outpatients,Hypertension,36.9,83.1,1.7,69,8.0,Treated,28.8,12,Monday,Normal
+V0802,2025-12-15,68,M,Outpatients,Hypertension,36.4,91.5,1.65,69,6.5,Treated,33.6,12,Monday,Normal
+V0803,2025-12-15,45,F,Emergency,Injury,37.1,,1.63,18,18.0,Referred,,12,Monday,Normal
+V0804,2025-12-16,26,F,Maternity,Antenatal check,36.7,62.5,1.61,41,10.0,Treated,24.1,12,Tuesday,Normal
+V0805,2025-12-16,61,F,Outpatients,Respiratory infection,38.0,79.2,1.66,70,6.5,Admitted,28.7,12,Tuesday,Fever
+V0806,2025-12-17,12,M,Paediatrics,Immunisation,37.1,36.0,1.35,29,0.0,Treated,19.8,12,Wednesday,Normal
+V0807,2025-12-17,21,F,Outpatients,Respiratory infection,38.1,64.7,1.64,75,6.5,Treated,24.1,12,Wednesday,Fever
+V0808,2025-12-17,3,M,Paediatrics,Respiratory infection,,8.4,0.76,27,7.5,Referred,14.5,12,Wednesday,Not recorded
+V0809,2025-12-17,33,F,Emergency,Injury,36.8,68.1,1.7,11,21.5,Admitted,23.6,12,Wednesday,Normal
+V0810,2025-12-18,2,F,Paediatrics,Immunisation,36.7,9.2,0.71,10,0.0,Treated,18.3,12,Thursday,Normal
+V0811,2025-12-18,40,F,Emergency,Injury,37.0,49.1,1.7,12,20.5,Treated,17.0,12,Thursday,Normal
+V0812,2025-12-18,11,F,Paediatrics,Respiratory infection,38.4,34.0,1.21,66,5.0,Treated,23.2,12,Thursday,Fever
+V0813,2025-12-18,10,M,Paediatrics,Immunisation,37.2,31.7,1.16,32,0.0,Treated,23.6,12,Thursday,Normal
+V0814,2025-12-19,70,F,Emergency,Injury,36.9,64.0,1.6,8,18.5,Treated,25.0,12,Friday,Normal
+V0815,2025-12-19,18,F,Outpatients,Respiratory infection,38.1,45.7,1.7,52,9.0,Treated,15.8,12,Friday,Fever
+V0816,2025-12-20,14,M,Paediatrics,Respiratory infection,37.7,42.6,1.52,33,5.5,Treated,18.4,12,Saturday,Fever
+V0817,2025-12-20,70,F,Outpatients,Diarrhoea,37.2,60.3,1.66,72,7.5,Referred,21.9,12,Saturday,Normal
+V0818,2025-12-20,4,F,Paediatrics,Respiratory infection,,15.7,0.83,41,2.5,Treated,22.8,12,Saturday,Not recorded
+V0819,2025-12-23,5,F,Paediatrics,Diarrhoea,37.2,19.3,0.87,35,3.5,Treated,25.5,12,Tuesday,Normal
+V0820,2025-12-23,77,F,Outpatients,Hypertension,36.9,82.0,1.52,77,8.0,Treated,35.5,12,Tuesday,Normal
+V0821,2025-12-23,45,M,Outpatients,Hypertension,36.9,59.8,1.68,95,6.0,Treated,21.2,12,Tuesday,Normal
+V0822,2025-12-24,69,M,Emergency,Malaria,38.5,86.4,1.8,9,19.0,Admitted,26.7,12,Wednesday,Fever
+V0823,2025-12-25,12,M,Paediatrics,Respiratory infection,37.4,36.4,1.35,20,5.0,Treated,20.0,12,Thursday,Normal
+V0824,2025-12-25,26,F,Maternity,Antenatal check,36.9,56.2,1.59,23,11.0,Treated,22.2,12,Thursday,Normal
+V0825,2025-12-26,61,M,Outpatients,Hypertension,36.7,70.6,1.76,58,7.0,Treated,22.8,12,Friday,Normal
+V0826,2025-12-26,44,M,Outpatients,Hypertension,36.3,113.0,1.82,55,6.5,Treated,34.1,12,Friday,Normal
+V0827,2025-12-29,10,F,Paediatrics,Malaria,38.6,28.9,1.21,74,5.0,Treated,19.7,12,Monday,Fever
+V0828,2025-12-29,72,M,Emergency,Injury,36.7,79.2,1.65,4,21.5,Referred,29.1,12,Monday,Normal
+V0829,2025-12-30,50,M,Outpatients,Respiratory infection,38.3,72.8,1.67,63,7.5,Treated,26.1,12,Tuesday,Fever
+V0830,2025-12-30,3,F,Paediatrics,Diarrhoea,37.0,,0.71,31,6.0,Treated,,12,Tuesday,Normal
+V0831,2025-12-30,12,F,Paediatrics,Immunisation,37.1,34.9,1.28,36,0.0,Treated,21.3,12,Tuesday,Normal
+V0832,2025-12-30,7,M,Emergency,Injury,36.8,24.3,1.02,8,21.0,Treated,23.4,12,Tuesday,Normal
+V0833,2025-12-30,57,M,Outpatients,Hypertension,36.7,95.9,1.67,57,10.0,Treated,34.4,12,Tuesday,Normal
+V0834,2025-12-30,38,F,Outpatients,Diabetes,36.6,81.6,1.62,51,7.5,Referred,31.1,12,Tuesday,Normal
+V0835,2025-12-30,18,F,Maternity,Antenatal check,37.0,97.3,1.67,26,9.5,Treated,34.9,12,Tuesday,Normal
+V0836,2025-12-30,26,F,Maternity,Antenatal check,36.5,54.4,1.64,20,10.0,Referred,20.2,12,Tuesday,Normal
+V0837,2025-12-30,2,F,Paediatrics,Immunisation,37.3,9.2,0.63,48,0.0,Treated,23.2,12,Tuesday,Normal
+V0838,2025-12-30,5,M,Paediatrics,Immunisation,36.9,17.5,0.91,34,0.0,Treated,21.1,12,Tuesday,Normal
+V0839,2025-12-31,6,M,Paediatrics,Respiratory infection,38.0,19.1,0.94,28,5.0,Treated,21.6,12,Wednesday,Fever
+V0840,2025-12-31,39,F,Maternity,Antenatal check,36.9,76.3,1.67,25,11.0,Treated,27.4,12,Wednesday,Normal
